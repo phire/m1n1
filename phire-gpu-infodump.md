@@ -34,6 +34,10 @@ de-allocations in this address space.
 
 See m1n1.hw.PTE for details on the PTE format
 
+
+
+
+
 ## GPU Virtual Address Space
 
 MacOS (at least on my machine) uses GPU VAs in the following ranges:
@@ -55,6 +59,10 @@ Pointers are sometimes sign extended, so you will sometimes see pointers in the 
 
 UAT is in control of this address space.
 
+
+
+
+
 ## gfx-asc
 
 The ASC interface seems like it would be natural interface for submitting work.
@@ -65,11 +73,11 @@ compared to what I've seen of DCP.
 ### Endpoints
 
  0x0: Standard Management, I didn't see anything weird here.  
- 0x1: I called this Init. Only gets a single request/response during gfx initialization.  
+ 0x1: Standard Crashlog endpoint
 0x20: I called this Pong. Receives regular "pongs"  
 0x21: I called this Kick.  
 
-#### Init
+#### Crashlog Endpoint
 
 The entire traffic is:
 
@@ -82,7 +90,10 @@ And happens right around initialization
 a repeating pattern during initialization (16KB of repeating 0xef byte), and then never
 touches it again.
 
-#### Pong
+
+#### Pong Endpoint
+
+*Crashlogs call this endpoint "User01"*
 
 I probably misnamed this, the number of Pong messages don't line up with kicks. Might be more of
 a heartbeat, or might be the gfx firmware telling the cpu that it touched the pagetables.
@@ -92,6 +103,21 @@ There is also some more initialization that happens on this endpoint after the I
 Messages:
 `RX 0x0042000000000000`: The pong. Never sets the lower bits to anything other than zero.  
 `TX 0x00810fa0000b0000`: Initialization, sent once  
+
+If you send a null pointer as the Initialization data, you get the following crash over Crashlog:
+
+    GFX PANIC - Unable to grab init data from host - agx_background(2)
+
+The painclog shows the following active tasks:
+
+ * rtk_ep_work
+ * power
+ * agx_background
+
+And the panic happens in agx_background. *Does this mean this endpoint belongs to agx_background?*
+
+Once the initialization data has been supplied, I didn't managed to crash this endpoint by sending
+it messages
 
 ##### Pong Initialization
 
@@ -114,6 +140,8 @@ unkptr_18 appears to be a heap or stack used by the asc-firmware?
 
 #### Kick
 
+*Crashlogs call this endpoint "User02"*
+
 The only message is
 
 `TX 0x0083000000000000 | kick_type`
@@ -126,6 +154,25 @@ But when the MacOS is actually rendering things, sometimes you see 0x08, 0x09 an
 These Kicks might be triggering work submission, but with only 5 bits of entropy, the actual
 information must be somewhere in shared memory. But at this point I have not found shared memory that
 is altered between kicks. It's also possible I mislabeled this, and the kicks are actually TLB invalidation
+
+Sending `0x0083000000000000` messages with out-of-range kicks doesn't cause a crash
+message types 0x84 and 0x85 
+
+### Tasks
+
+According to crashlogs, gfx-asc is running the following tasks:
+
+ * rtk_ep_work
+ * power
+ * agx_background
+ * agx_recovery
+ * agx_interrupt
+ * agx_power
+ * agx_sample
+
+
+
+
 
 ## /arm-io/sgx's various shared memory ranges
 
@@ -190,6 +237,10 @@ Other times it will do hundreds of kicks without ever changing anything in this 
 My current theory is that this region is exclusive used to track the status of page table updates,
 and is accessible to both MacOS and gfx-asc so they can syncronise access for pagetable updates
 
+
+
+
+
 ## sgx registers
 
 the CPU never writes to these registers, only reads. 
@@ -216,6 +267,9 @@ These status registers are continually checked by *something* on the CPU
 There doesn't seem to be a good relationship of when these status registers are read, relative to
 the ASC Pong and Kicks. This is part of the reason why I've been wondering if there is an alternative
 communication channel that's missing from ADT
+
+
+
 
 ## My Theories
 
