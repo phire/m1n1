@@ -138,18 +138,19 @@ After initialization, the CPU never touches this.
 
 unkptr_18 appears to be a heap or stack used by the asc-firmware?
 
+
+
 #### Kick
 
 *Crashlogs call this endpoint "User02"*
 
-The only message is
+**Messages:**  
 
-`TX 0x0083000000000000 | kick_type`
-
-Where kick_type is a 5 bit number. When the MacOS isn't rendering anything, the only kicks seen are
-0x00, 0x01, 0x10 and 0x11
-
-But when the MacOS is actually rendering things, sometimes you see 0x08, 0x09 and 0x0a. Maybe more?
+`0x83000000000000`: Submit TA channel
+`0x83000000000001`: Submit 3D channel
+`0x83000000000002`: Submit CL channel
+`0x83000000000010`: Kick Firmware
+`0x83000000000011`: Device Control
 
 These Kicks might be triggering work submission, but with only 5 bits of entropy, the actual
 information must be somewhere in shared memory. But at this point I have not found shared memory that
@@ -157,6 +158,79 @@ is altered between kicks. It's also possible I mislabeled this, and the kicks ar
 
 Sending `0x0083000000000000` messages with out-of-range kicks doesn't cause a crash
 message types 0x84 and 0x85 
+
+### Channels
+
+#### Channel 0
+
+Used by `0x83000000000000`: Submit TA channel
+
+00000000 0c000000 ffffffa0 00000002 00000000 00000001
+00000000 0c3a8000 ffffffa0 00000002 00000002 00000001
+00000000 0c000000 ffffffa0 00000003 00000000 00000000
+00000000 0c3a8000 ffffffa0 00000003 00000002 00000000
+00000000 0c3a8000 ffffffa0 00000004 00000002 00000000
+00000000 0c3a8000 ffffffa0 00000005 00000002 00000000
+
+#### Channel 1
+
+Used by `0x83000000000001`: Submit 3D channel
+
+00000001 0c002cc0 ffffffa0 00000002 00000001 00000001
+00000001 0c3aacc0 ffffffa0 00000002 00000003 00000001
+00000001 0c002cc0 ffffffa0 00000004 00000001 00000000
+00000001 0c3aacc0 ffffffa0 00000004 00000003 00000000
+00000001 0c3aacc0 ffffffa0 00000006 00000003 00000000
+00000001 0c3aacc0 ffffffa0 00000008 00000003 00000000
+00000001 0c002cc0 ffffffa0 00000006 00000001 00000000
+00000001 0c3aacc0 ffffffa0 0000000a 00000003 00000000
+
+#### Channel 12
+
+Used by Device Control - `0x83000000000011`
+
+The kernel puts a message in channel 12 before even initializing gfx-asc.
+
+Message Type 0x19
+
+then
+
+Message Type 0x23
+
+Message 0x17:
+
+    Seen when launching my metal test
+
+#### Channel 13
+
+From GPU firmware?
+
+Transfers are actually 0x38 bytes long, instead of the regular 0x30
+
+    # chan[13]->ptrB (0xffffffa000031f00..0xffffffa0000350af)
+    ffffffa000031f00 00000001 00000001 00000000 00000000 00000000 4b430000 534b5452 4b434154 | ......................CKRTKSTACK
+    ffffffa000031f20 534b5452 4b434154 534b5452 4b434154 534b5452 4b434154 00000001 00000002 | RTKSTACKRTKSTACKRTKSTACK........
+    ffffffa000031f40 00000000 00000000 00000000 ffff0000 00000080 00000000 000040e8 00000000 | .........................@......
+    ffffffa000031f60 00001180 00021300 000040e0 00000000 00000000 00000000 00000000 00000000 | .........@......................
+
+
+
+#### Channel 14
+
+A reply to channel 12?
+
+Message Type 0x4
+
+#### Channel 16
+
+The timestamp channel.
+
+This might show the timestamps of every function or mode the gpu firmware (or gpu itself) was in
+
+Type 0xc - Nothing has happened
+
+
+
 
 ### Tasks
 
@@ -169,8 +243,6 @@ According to crashlogs, gfx-asc is running the following tasks:
  * agx_interrupt
  * agx_power
  * agx_sample
-
-
 
 
 
@@ -237,7 +309,10 @@ Other times it will do hundreds of kicks without ever changing anything in this 
 My current theory is that this region is exclusive used to track the status of page table updates,
 and is accessible to both MacOS and gfx-asc so they can syncronise access for pagetable updates
 
-
+The following panic message `GFX PANIC - Host-mapped FW allocations are disabled, but FW only supports enabled`
+(seen when setting byte 0xa0 of initdata to 0) suggests that this "firmware control of pagetable" 
+functionally isn't actually enabled in this version of the firmware.   
+With any luck We might be able to get away with not writing anything to this handoff region at all.
 
 
 
@@ -265,30 +340,4 @@ These status registers are continually checked by *something* on the CPU
     0x11014 : u32 - Useally 0
 
 There doesn't seem to be a good relationship of when these status registers are read, relative to
-the ASC Pong and Kicks. This is part of the reason why I've been wondering if there is an alternative
-communication channel that's missing from ADT
-
-
-
-
-## My Theories
-
-I currently have two theories for where work submissions are hiding.
-
-### One: missing communication channel 
-
-Maybe there is another mailbox that is missing from ADT. Maybe everything I've traced including the
-kicks are to do with page tables, and work submissions go over another communication channel.
-
-I've mostly disproved this theory, I've traced the entire IO range around both the sgx and gfx-asc nodes
-from `0x404000000` to `0x406ffffff` and there is no CPU writes to undocumented registers. 
-
-I also traced every single IO range that was mapped in to UAT to see if there were cpu writes to them.
-
-### Two: Kick + shared memory
-
-More likely, the Kicks are telling the gfx-asc firmware to look at a known shared memory address,
-and I just haven't found it. I've eliminated all the memory ranges listed in the sgx node, so it's
-either an address passed in via the 0x20 EP initialization message's "ControlStruct" (I've checked 
-the top level pointers, but I haven't fully mapped the ControlStruct out) or it checks a hard
-coded address. 
+the ASC Pong and Kicks. 
