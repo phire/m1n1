@@ -46,8 +46,16 @@ class AGXHWDataShared1(ConstructClass):
         "unk_14" / Int32ul,
         "unk_18" / Int32ul,
         "unk_1c" / Int32ul,
-        "unk_20" / HexDump(Bytes(0x26)),
-        "unk_46" / HexDump(Bytes(0x6)),
+        "unk_20" / Int32ul,
+        "unk_24" / Int32ul,
+        "unk_28" / Int32ul,
+        "unk_2c" / Int32ul,
+        "unk_30" / Int32ul,
+        "unk_34" / Int32ul,
+        "unk_38" / Int32ul,
+        "unk_3c" / Int32ul,
+        "unk_40" / Int32ul,
+        "unk_44" / HexDump(Bytes(0x8)),
         "unk_4c" / HexDump(Bytes(0x58)),
         "unk_a4" / Int32ul,
         "unk_a8" / Int32ul,
@@ -63,8 +71,16 @@ class AGXHWDataShared1(ConstructClass):
         self.unk_14 = 0x25be
         self.unk_18 = 0x1c1f
         self.unk_1c = 0x16fb
-        self.unk_20 = b"\xff" * 0x26
-        self.unk_46 = bytes(0x6)
+        self.unk_20 = 0xffffffff
+        self.unk_24 = 0xffffffff
+        self.unk_28 = 0xffffffff
+        self.unk_2c = 0xffffffff
+        self.unk_30 = 0xffffffff
+        self.unk_34 = 0xffffffff
+        self.unk_38 = 0xffffffff
+        self.unk_3c = 0xffffffff
+        self.unk_40 = 0xffffffff
+        self.unk_44 = bytes(0x8)
         self.unk_4c = bytes(0x58)
         self.unk_a4 = 0xffff
         self.unk_a8 = 0
@@ -392,7 +408,7 @@ class AGXHWDataA(ConstructClass):
         "unk_8f4" / Int32ul,
         "pad_8f8" / Int32ul,
         "pad_8fc" / Int32ul,
-        "unk_900" / HexDump(Bytes(0x294)),
+        "unk_900" / HexDump(Bytes(0x094)),
         "unk_b94" / Dec(Int32ul),
         "freq_with_off" / Int32ul,
         "unk_b9c" / Int32ul,
@@ -525,9 +541,9 @@ class AGXHWDataA(ConstructClass):
         self.tgt_pstate = 1
         self.unk_30 = 0
         self.cur_pstate = 0
-        self.unk_38 = 0
+        self.unk_38 = 0 # 64
         self.unk_3c_0 = 0
-        self.unk_3c = 300
+        self.unk_3c = 300 # 100
         self.unk_40 = 1
         self.unk_44 = 600
         self.unk_48 = 0
@@ -536,7 +552,7 @@ class AGXHWDataA(ConstructClass):
         self.unk_54 = bytes(0x20)
         self.unk_74_0 = 0
         # perf related
-        self.unk_74 = [0] * 16
+        self.unk_74 = [0] * 16 # [1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137 ...]
 
         self.unk_b4 = bytes(0x100)
         self.unk_1b4 = 0
@@ -559,17 +575,17 @@ class AGXHWDataA(ConstructClass):
         self.unk_668 = 0.0202128999
         self.pad_66c = 0
         self.unk_670 = 0
-        self.unk_674 = 19551.0
+        self.unk_674 = 19551.0 # 81415.0
         # gpu-pwr-proportional-gain
         self.unk_678 = 5.2831854820
         self.pad_67c = 0
-        self.unk_680 = 0xbcfb676e
+        self.unk_680 = 0xbcfb676e # 0xbbf17d19
         self.unk_684 = 0xfffffdd0
         self.unk_688 = 0
         self.unk_68c = 600
         self.pad_690 = 0
         self.unk_694 = 0
-        self.unk_698 = 19551
+        self.unk_698 = 19551 # 81415
         self.pad_69c = bytes(0x18)
         self.unk_6b4 = 0
         self.unk_6b8_0 = bytes(0x10)
@@ -584,15 +600,15 @@ class AGXHWDataA(ConstructClass):
         self.unk_6e8 = 0.0833333358168602
         self.pad_6ec = 0
         # gpu-ppm-ki / gpu-avg-power-target-filter-tc?
-        self.unk_6f0 = 0.732
+        self.unk_6f0 = 0.732 # 0.24000000953674316
         self.pad_6f4 = 0
         self.unk_6f8 = 0
         if Ver.check("13.0 beta4"):
             self.unk_6fc = 65536.0
         else:
-            self.unk_6fc = 0
+            self.unk_6fc = 0 # 65536.0
         # gpu-ppm-kp
-        self.unk_700 = 6.9
+        self.unk_700 = 6.9 # 1.5
         self.pad_704 = 0
         self.unk_708 = 0
         # gpu-pwr-min-duty-cycle?
@@ -601,7 +617,7 @@ class AGXHWDataA(ConstructClass):
         self.unk_714 = 0
         self.pad_718 = 0
         self.unk_71c = 0.0
-        self.unk_720 = 19551
+        self.unk_720 = 19551 # 81415
         self.cur_power_mw_2 = 0x0
         self.unk_728 = 100
         self.unk_72c = 0
@@ -620,8 +636,8 @@ class AGXHWDataA(ConstructClass):
         # gpu-perf-tgt-utilization
         self.unk_75c = 85
         self.pad_760 = 0
-        self.unk_764 = 100
-        self.unk_768 = 25
+        self.unk_764 = 100 # 90
+        self.unk_768 = 25 # 50
         self.unk_76c = 6
         self.pad_770 = 0x0
         self.unk_774 = 6
@@ -631,31 +647,31 @@ class AGXHWDataA(ConstructClass):
         self.unk_784 = 0.98
         self.unk_788 = 0.2
         self.unk_78c = 0.02
-        self.unk_790 = 7.895683288574219
+        self.unk_790 = 7.895683288574219 # 6.300000190734863
         # gpu-perf-integral-gain2
         self.unk_794 = 0.19739200174808502
         self.unk_798 = 0.0
         self.unk_79c = 95.0
-        self.unk_7a0 = 14.707962989807129
+        self.unk_7a0 = 14.707962989807129 # 15.75
         # gpu-perf-proportional-gain2
         self.unk_7a4 = 6.853981018066406
-        self.unk_7a8 = 3.1578948497772217
-        self.unk_7ac = 300
+        self.unk_7a8 = 3.1578948497772217 # 5.263157844543457
+        self.unk_7ac = 300 # 100
         self.unk_7b0 = 600
-        self.unk_7b4 = 300
+        self.unk_7b4 = 300 # 100
         self.pad_7b8 = 0x0
         self.use_percent = 0.0
         self.unk_7c0 = 0x55
         self.pad_7c4 = bytes(0x18)
         self.unk_7dc = 0x0
         self.unk_7e0_0 = bytes(0x10)
-        self.unk_7e0 = 300
+        self.unk_7e0 = 300 # 100
         self.pad_7e4 = 0x0
         self.unk_7e8 = bytes(0x14)
         self.unk_7fc = 65536.0
         self.unk_800 = 40.0
         self.unk_804 = 600.0
-        self.unk_808 = 0x4fe
+        self.unk_808 = 0x4fe # 0x510
         self.pad_80c = 0x0
         self.unk_810 = 0x0
         self.pad_814 = 0x0
@@ -672,10 +688,10 @@ class AGXHWDataA(ConstructClass):
         self.unk_83c = 0x0
         self.pad_840 = bytes(0x2c)
         self.unk_86c = 0x0
-        self.unk_870 = 0x12
+        self.unk_870 = 0x12 # 0x80808080
         self.unk_874 = 0x0
         self.unk_878 = 0x1f40
-        self.unk_87c = 0xffffff24
+        self.unk_87c = 0xffffff24 # 0x384
         self.unk_880 = 0x4
         self.unk_884 = 0x0
         self.pad_888 = 0x0
@@ -683,12 +699,12 @@ class AGXHWDataA(ConstructClass):
         self.pad_890 = 0x0
         self.unk_894 = 1.0
         self.pad_898 = 0x0
-        self.unk_89c = 1.6
+        self.unk_89c = 1.6 # 4.0
         self.pad_8a0 = 0x0
         self.unk_8a4 = 0x0
         self.unk_8a8 = 65536.0
         # gpu-fast-die0-proportional-gain?
-        self.unk_8ac = 5.0
+        self.unk_8ac = 5.0 # 72.0
         self.pad_8b0 = 0x0
         self.unk_8b4 = 0x0
         # gpu-pwr-min-duty-cycle?
@@ -697,7 +713,7 @@ class AGXHWDataA(ConstructClass):
         self.unk_8c0 = 600
         self.unk_8c4 = 0
         self.unk_8c8 = 0
-        self.unk_8cc = 9880
+        self.unk_8cc = 9880 # 11000
         self.pad_8d0 = bytes(0x14)
         self.unk_8e4_0 = bytes(0x10)
         self.unk_8e4 = 0
@@ -707,7 +723,8 @@ class AGXHWDataA(ConstructClass):
         self.unk_8f4 = 0
         self.pad_8f8 = 0
         self.pad_8fc = 0
-        self.unk_900 = bytes(0x294)
+        # m1 Max goes off the rails here
+        self.unk_900 = bytes(0x294) # 94
         self.unk_b94 = 600
         self.freq_with_off = 0x0
         self.unk_b9c = 0
@@ -718,9 +735,9 @@ class AGXHWDataA(ConstructClass):
         self.pad_bb8 = bytes(0x74)
         self.unk_c2c = 1
         self.unk_c30 = 1
-        self.unk_c34 = 19551
-        self.unk_c38 = 19551
-        self.unk_c3c = 19551
+        self.unk_c34 = 19551 # 81415
+        self.unk_c38 = 19551 # 81415
+        self.unk_c3c = 19551 # 81415
         self.unk_c40 = 0
         self.unk_c44 = 0.0
         self.unk_c48 = 0.992
@@ -732,15 +749,15 @@ class AGXHWDataA(ConstructClass):
         self.unk_c58_4 = 0
         self.unk_c58 = 0.0
         # gpu-power-zone-target-0
-        self.unk_c5c = 30000
+        self.unk_c5c = 30000 # 0
         # above minus gpu-power-zone-target-offset-0?
-        self.unk_c60 = 29900
-        self.unk_c64 = 27500
-        self.unk_c68 = 55000
+        self.unk_c60 = 29900 # 0
+        self.unk_c64 = 27500 # 0
+        self.unk_c68 = 55000 # 0
         self.unk_c6c_0 = 1320000000
         self.unk_c6c_4 = 0
-        self.unk_c6c = 0.999854564666748
-        self.unk_c70 = 0.00014545454178005457
+        self.unk_c6c = 0.999854564666748 # 0.0
+        self.unk_c70 = 0.00014545454178005457 # 0.0
         self.pad_c74 = 0x0
         self.unk_c78 = 0x0
         self.unk_c7c = 0x0
@@ -759,19 +776,19 @@ class AGXHWDataA(ConstructClass):
         self.unk_d08 = 0
         self.unk_d0c = 0.008
         self.unk_d10 = 0
-        self.unk_d14 = 0.06
+        self.unk_d14 = 0.06 # 0.019200000911951065
         self.unk_d18 = 0
         self.unk_d1c = 0
         self.unk_d20 = 65536.0
-        self.unk_d24 = 4.0
+        self.unk_d24 = 4.0 # 1.5
         self.unk_d28 = 0
         self.unk_d2c = 0
         self.unk_d30 = 0x28
         self.unk_d34 = 600
         self.unk_d38 = 600
         self.unk_d3c = 0
-        self.unk_d40 = 19551.0
-        self.unk_d44 = 19551
+        self.unk_d40 = 19551.0 # 81415.0
+        self.unk_d44 = 19551   # 81415
         self.unk_d48 = 0
         self.unk_d4c = 1000
         self.unk_d50 = 0
@@ -780,15 +797,15 @@ class AGXHWDataA(ConstructClass):
         self.unk_d54 = bytes(0x10)
         self.unk_d64 = 600
         self.unk_d68 = bytes(0x24)
-        self.unk_d8c = 0x80000000
-        self.unk_d90 = 4
+        self.unk_d8c = 0x80000000 # 0
+        self.unk_d90 = 4 # 0
         self.unk_d94 = 0
         self.unk_d98 = 0
-        self.unk_d9c = 0.6
+        self.unk_d9c = 0.6 # 0.0
         self.unk_da0 = 0
-        self.unk_da4 = 0.4
+        self.unk_da4 = 0.4 # 0.0
         self.unk_da8 = 0
-        self.unk_dac = 0.38552
+        self.unk_dac = 0.38552 # 0.0
         self.unk_db0 = 0
         self.unk_db4 = 0
         self.unk_db8 = 65536.0
@@ -1141,7 +1158,7 @@ class AGXHWDataB(ConstructClass):
         self.unk_4d0 = 0x0
         self.unk_4d4 = 0x0
         self.unk_4dc = 0x0
-        self.unk_4e0 = 0x0
+        self.unk_4e0 = 0x0 # 4
         self.unk_4e8 = 0x0
         self.unk_4ec = 0x0
         self.unk_4f0 = 0x1
@@ -1162,22 +1179,22 @@ class AGXHWDataB(ConstructClass):
         self.unk_528 = 0x0
         self.unk_52c = 0x0
         self.unk_530 = 0x0
-        self.unk_534 = 0x0
+        self.unk_534 = 0x0 # 1
         self.unk_538 = 0x0
         self.unk_53c_0 = 0
-        self.unk_53c = 0x8
+        self.unk_53c = 0x8 # 20 .. Number of gpu cores?
         self.unk_540 = 0x0
         self.unk_544 = 0x0
         self.unk_548 = 0x0
         self.unk_54c = 0x0
         self.unk_550 = 0x0
         self.unk_554 = 0x1
-        self.unk_558 = 0xfffb8000
-        self.unk_55c = 0x9
-        self.unk_560 = 0xb
-        self.unk_564 = 0x4
-        self.unk_568 = 0x8
-        self.max_pstate = 0x4
+        self.unk_558 = 0xfffb8000 # 0xffff8000
+        self.unk_55c = 0x9 # 0x10f
+        self.unk_560 = 0xb # 0xd
+        self.unk_564 = 0x4 # 0x5
+        self.unk_568 = 0x8 # 0x20
+        self.max_pstate = 0x4 # 6
         self.num_pstates = 0x7
 
         self.frequencies = [0] * 16
@@ -1189,18 +1206,18 @@ class AGXHWDataB(ConstructClass):
 
         self.unk_a74 = 0x0
         self.unk_a78 = 0x0
-        self.unk_a7c = 0x0
-        self.unk_a80 = 0x0
+        self.unk_a7c = 0x0 # 0xa
+        self.unk_a80 = 0x0 # 0x1c
         if Ver.check("13.0 beta4"):
             self.unk_a84 = 0x24
         else:
-            self.unk_a84 = 27
-        self.unk_a88 = 73
+            self.unk_a84 = 27 # 42
+        self.unk_a88 = 73 # 64
         self.unk_a8c = 100
 
-        self.min_volt = 850
-        self.unk_ab8 = 72
-        self.unk_abc = 8
+        self.min_volt = 850 # 0x316
+        self.unk_ab8 = 72 # 0x2084
+        self.unk_abc = 8 # 80
         self.unk_ac0 = 0x1020
         self.unk_ac4_0 = bytes(0x1f0)
         self.unk_acc = 0x0
@@ -1525,7 +1542,7 @@ class InitData_RegionC(ConstructClass):
         "unk_8944" / Int32ul,
         "unk_8948" / Int32ul,
         "unk_894c" / Int32ul,
-        "unk_8950" / HexDump(Bytes(0x6c)),
+        "unk_8950" / HexDump(Bytes(0x48)),
         Ver("13.0 beta4", "unk_89bc_0" / HexDump(Bytes(0x3c))),
         "unk_89bc" / Int32ul,
         "unk_89c0" / Int32ul,
@@ -1555,7 +1572,7 @@ class InitData_RegionC(ConstructClass):
         "unk_9100" / HexDump(Bytes(0x6f00)),
         "unk_10000" / HexDump(Bytes(0xe50)),
         "unk_10e50" / Int32ul,
-        "unk_10e54" / HexDump(Bytes(0x2c)),
+        "unk_10e54" / HexDump(Bytes(0x28)),
         "unk_10e80" / Int32ul,
         "do_init" / Int32ul,
         "unk_10e88" / HexDump(Bytes(0x188)),
@@ -1618,7 +1635,7 @@ class InitData_RegionC(ConstructClass):
         self.unk_8900 = 1
         # Accessed with OSIncrementAtomic/OSDecrementAtomic
         self.unk_atomic = 0
-        self.unk_8908 = 19551
+        self.unk_8908 = 19551 # 81415
         self.unk_890c = 600
         self.unk_8910 = 600
         self.unk_8914 = 0
@@ -1629,9 +1646,9 @@ class InitData_RegionC(ConstructClass):
         # gpu-avg-power-target-filter-tc?
         self.unk_8928 = 125
         # gpu-avg-power-ki-only / gpu-avg-power-target-filter-tc?
-        self.unk_892c = 0.06
+        self.unk_892c = 0.06  # 0.019200000911951065
         # gpu-avg-power-kp
-        self.unk_8930 = 4.0
+        self.unk_8930 = 4.0 # 1.5
         # gpu-avg-power-min-duty-cycle
         self.unk_8934 = 40
         # gpu-avg-power-target-filter-tc
@@ -1639,16 +1656,16 @@ class InitData_RegionC(ConstructClass):
         if Ver.check("13.0 beta4"):
             self.unk_893c = 30000
         else:
-            self.unk_893c = 29520
+            self.unk_893c = 29520 # 0
         # gpu-power-zone-target-0 - gpu-power-zone-target-offset-0
-        self.unk_8940 = 29900
+        self.unk_8940 = 29900 # 0
         # gpu-power-zone-filter-tc-0
-        self.unk_8944 = 6875
+        self.unk_8944 = 6875 # 0
         self.unk_8948 = 0
         self.unk_894c = 0
-        self.unk_8950 = bytes(0x6c)
+        self.unk_8950 = bytes(0x30)
         self.unk_89bc_0 = bytes(0x3c)
-        self.unk_89bc = 9880
+        self.unk_89bc = 9880 # 1
         self.unk_89c0 = 8000
         self.unk_89c4 = -220
         self.unk_89c8 = 0
@@ -1682,7 +1699,7 @@ class InitData_RegionC(ConstructClass):
         self.unk_9100 = bytes(0x6f00)
         self.unk_10000 = bytes(0xe50)
         self.unk_10e50 = 0
-        self.unk_10e54 = bytes(0x2c)
+        self.unk_10e54 = bytes(0x28)
         self.unk_10e80_0 = bytes(0xed4)
         self.unk_10e80_ed0 = 0
         self.unk_10e80_ed4 = bytes(0x2c)
