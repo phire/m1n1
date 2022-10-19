@@ -878,4 +878,79 @@ def show_struct_trace(log=print):
     for addr, desc in sorted(list(g_struct_trace)):
         log(f"{addr:>#18x}: {desc}")
 
+class MemStream():
+    def __init__(self):
+        self.cache = None
+        self.pos = 0
+        self.readable = False
+        self.writable = False
+
+    def readable(self):
+        return self.readable
+
+    def writable(self):
+        return self.writable
+
+    def flush(self):
+        self.cache = None
+
+    def seek(self, n, wherenc=0):
+        self.cache = None
+        if wherenc == 0:
+            self.pos = n
+        elif wherenc == 2:
+            self.pos += n
+
+    def seekable(self):
+        return True
+
+    def tell(self):
+        return self.pos
+
+    def closed(self):
+        return False
+
+
+class SparseMemStream(MemStream):
+    def __init__(self):
+        super().__init__()
+        self.readable = True
+        self.regions = []
+
+    def add_region(self, addr, data):
+        self.regions.append((addr, addr + len(data), data))
+
+    def find_region(self, addr):
+        for start, end, data in self.regions:
+            if start <= addr < end:
+                offset = addr - start
+                return data[offset:]
+        return None
+
+    def read(self, size):
+        assert size >= 0
+
+        data = b""
+        if self.cache:
+            data = self.cache[:size]
+            cached = len(self.cache)
+            self.pos += min(cached, size)
+            if cached > size:
+                self.cache = self.cache[size:]
+                return data
+            self.cache = None
+            if cached == size:
+                return data
+
+            size -= cached
+
+        self.cache = self.find_region(self.pos)
+        if self.cache is None:
+            # Pad with zeros
+            self.pos += size
+            return data + b"\0" * size
+
+        return data + self.read(size)
+
+
 __all__ = ["ConstructClass", "ConstructValueClass", "Dec", "ROPointer", "show_struct_trace", "ZPadding", "Ver"]
