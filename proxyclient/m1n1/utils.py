@@ -127,6 +127,35 @@ def chexundump(dump):
 
     return decoded
 
+def chexundump32(dump):
+    if type(dump) is bytes:
+        dump = dump.decode("ascii")
+    elif type(dump) is str:
+        pass
+    else:
+        dump = dump.read()
+
+    decoded = bytearray()
+    for line in dump.splitlines():
+        try:
+            cropped = line.split("|", 2)[0]
+            mark, data = cropped.split(" ", 1)
+            if data.strip() == "*":
+                continue
+            offset = int(mark, 16)
+            data = data.strip().split(" ")
+            if offset > len(decoded):
+                decoded.extend([0] * (offset - len(decoded)))
+            for word in data:
+                if len(word) != 8:
+                    raise ValueError("non-word sized data")
+                # reverse the bytes
+                decoded.extend(int(word[i:i+2], 16) for i in range(6, -1, -2))
+        except (ValueError, TypeError) as exc:
+            raise ValueError("can't decode line: %s", line) from exc
+
+    return decoded
+
 _extascii_table_low = [
     "▪", "☺", "☻", "♥", "♦", "♣", "♠", "•",
     "◘", "○", "◙", "♂", "♀", "♪", "♫", "☼",
@@ -200,6 +229,14 @@ def chexdump32(s, st=0, abbreviate=True):
 def unhex(s):
     s = re.sub(r"/\*.*?\*/", "", s)
     return bytes.fromhex(s.replace(" ", "").replace("\n", ""))
+
+def unhex32(s):
+    # Expects the output of chexdump32
+    for word in s.split():
+        if word == "*":
+            yield bytes(32)
+        else:
+            yield bytes.fromhex(word)
 
 def dumpstacks(signal, frame):
     id2name = dict([(th.ident, th.name) for th in threading.enumerate()])
