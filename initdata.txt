@@ -1,0 +1,1178 @@
+InitData @ 0xffffffa0000b0000:
+[90m   ID.[32m[  0.  8][m [95mregionA_addr[m = 0xffffffa0000b8000
+[90m   ID.[32m[  8.  0][m [95mregionA[m = bytes(0x4000)
+[90m   ID.[32m[  8.  4][m [95munk_8[m = 0x0
+[90m   ID.[32m[  c.  4][m [95munk_c[m = 0x0
+[90m   ID.[32m[ 10.  8][m [95mregionB_addr[m = 0xffffffa00c338000 (InitData_RegionB)
+[90m   ID.[32m[ 18.  0][m [95mregionB[m =
+[90m   ID.[mInitData_RegionB @ 0xffffffa00c338000:
+[90m   ID.[m[90mID_RB.[32m[  0.110][m [95mchannels[m =
+[90m   ID.[m[90mID_RB.[mChannelInfoSet @ 0xffffffa00c338000:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[  0. 10][m [95mTA_0[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338000:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5840
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c34fa00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 10. 10][m [95m3D_0[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338010:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5940
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c35ba00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 20. 10][m [95mCL_0[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338020:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5a40
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c367a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 30. 10][m [95mTA_1[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338030:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5800
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c34ca00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 40. 10][m [95m3D_1[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338040:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5900
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c358a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 50. 10][m [95mCL_1[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338050:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c364a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 60. 10][m [95mTA_2[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338060:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a57c0
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c349a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 70. 10][m [95m3D_2[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338070:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a58c0
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c355a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 80. 10][m [95mCL_2[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338080:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a59c0
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c361a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ 90. 10][m [95mTA_3[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338090:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5780
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c346a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ a0. 10][m [95m3D_3[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c3380a0:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5880
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c352a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ b0. 10][m [95mCL_3[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c3380b0:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5980
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c35ea00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ c0. 10][m [95mDevCtrl[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c3380c0:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000a5740
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00c343a00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ d0. 10][m [95mEvent[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c3380d0:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa000031d40
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa000031f40
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ e0. 10][m [95mFWLog[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c3380e0:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa000031d80
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa000035740
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[ f0. 10][m [95mKTrace[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c3380f0:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa000031ec0
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa00009b740
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[32m[100. 10][m [95mStats[m =
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[mChannelInfo @ 0xffffffa00c338100:
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa000031f00
+[90m   ID.[m[90mID_RB.[m[90m  CIS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa0000a2740
+[90m   ID.[m[90mID_RB.[32m[110. 50][m [95mpad_110[m = bytes(0x50)
+[90m   ID.[m[90mID_RB.[32m[160.  8][m [95munk_160[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[168.  8][m [95munk_168[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[170.  8][m [95mstats_ta_addr[m = 0xffffffa00c33ebc0 (InitData_GPUGlobalStatsTA)
+[90m   ID.[m[90mID_RB.[32m[178.  0][m [95mstats_ta[m =
+[90m   ID.[m[90mID_RB.[mInitData_GPUGlobalStatsTA @ 0xffffffa00c33ebc0:
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[32m[  0.  4][m [95mtotal_cmds[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[32m[  4. bc][m [95mstats[m =
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[mInitData_GPUStatsTA @ 0xffffffa00c33ebc4:
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[32m[  0.  4][m [95munk_4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[32m[  4. 60][m [95mqueues[m =
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[InitData_GPUQueueStatsTA @ 0xffffffa00c33ebc8:
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  0.  4][m [95mbusy[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  4.  4][m [95munk_4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  8.  8][m [95mcur_cmdqueue[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[ 10.  4][m [95mcur_count[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[ 14.  4][m [95munk_14[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m, InitData_GPUQueueStatsTA @ 0xffffffa00c33ebe0:
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  0.  4][m [95mbusy[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  4.  4][m [95munk_4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  8.  8][m [95mcur_cmdqueue[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[ 10.  4][m [95mcur_count[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[ 14.  4][m [95munk_14[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m, InitData_GPUQueueStatsTA @ 0xffffffa00c33ebf8:
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  0.  4][m [95mbusy[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  4.  4][m [95munk_4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  8.  8][m [95mcur_cmdqueue[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[ 10.  4][m [95mcur_count[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[ 14.  4][m [95munk_14[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m, InitData_GPUQueueStatsTA @ 0xffffffa00c33ec10:
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  0.  4][m [95mbusy[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  4.  4][m [95munk_4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[  8.  8][m [95mcur_cmdqueue[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[ 10.  4][m [95mcur_count[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m[90mID_TA.[32m[ 14.  4][m [95munk_14[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[m]
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[32m[ 64.  8][m [95munk_68[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[32m[ 6c.  4][m [95munk_70[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[32m[ 70.  4][m [95munk_74[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[32m[ 74.  8][m [95munk_timestamp[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_TA.[m[90mID_TA.[32m[ 7c. 40][m [95munk_80[m = bytes(0x40)
+[90m   ID.[m[90mID_RB.[32m[178.  8][m [95mstats_3d_addr[m = 0xffffffa00c33ec80 (InitData_GPUGlobalStats3D)
+[90m   ID.[m[90mID_RB.[32m[180.  0][m [95mstats_3d[m =
+[90m   ID.[m[90mID_RB.[mInitData_GPUGlobalStats3D @ 0xffffffa00c33ec80:
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[32m[  0.  4][m [95mtotal_cmds[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[32m[  4.  4][m [95munk_4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[32m[  8.1c4][m [95mstats[m =
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[mInitData_GPUStats3D @ 0xffffffa00c33ec88:
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[  0. 18][m [95munk_0[m = bytes(0x18)
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[ 18. a0][m [95mqueues[m =
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[InitData_GPUQueueStats3D @ 0xffffffa00c33eca0:
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  0.  4][m [95mbusy[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  4.  8][m [95mcur_cmdqueue[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  c.  4][m [95munk_c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[ 10.  4][m [95munk_10[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[ 14. 14][m [95munk_14[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m, InitData_GPUQueueStats3D @ 0xffffffa00c33ecc8:
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  0.  4][m [95mbusy[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  4.  8][m [95mcur_cmdqueue[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  c.  4][m [95munk_c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[ 10.  4][m [95munk_10[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[ 14. 14][m [95munk_14[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m, InitData_GPUQueueStats3D @ 0xffffffa00c33ecf0:
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  0.  4][m [95mbusy[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  4.  8][m [95mcur_cmdqueue[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  c.  4][m [95munk_c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[ 10.  4][m [95munk_10[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[ 14. 14][m [95munk_14[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m, InitData_GPUQueueStats3D @ 0xffffffa00c33ed18:
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  0.  4][m [95mbusy[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  4.  8][m [95mcur_cmdqueue[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[  c.  4][m [95munk_c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[ 10.  4][m [95munk_10[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m[90mID_3D.[32m[ 14. 14][m [95munk_14[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[m]
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[ b8. 38][m [95munk_d0[m = bytes(0x38)
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[ f0.  4][m [95mtvb_overflows_1[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[ f4.  4][m [95mtvb_overflows_2[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[ f8.  4][m [95munk_f8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[ fc.  4][m [95munk_fc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[100.  4][m [95mcur_stamp_id[m = -0x1
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[104. 14][m [95munk_104[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[118.  4][m [95munk_118[m = -0x1
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[11c.  4][m [95munk_11c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[120.  4][m [95munk_120[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[124.  4][m [95munk_124[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[128.  4][m [95munk_128[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[12c.  4][m [95munk_12c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[130.  8][m [95munk_timestamp[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mID_3D.[m[90mID_3D.[32m[138. 8c][m [95munk_134[m = bytes(0x8c)
+[90m   ID.[m[90mID_RB.[32m[180.  8][m [95mstats_cp_addr[m = 0xffffffa00c33ee40
+[90m   ID.[m[90mID_RB.[32m[188.  0][m [95mstats_cp[m = bytes(0x140)
+[90m   ID.[m[90mID_RB.[32m[188.  8][m [95mhwdata_a_addr[m = 0xffffffa00c33efc0 (AGXHWDataA)
+[90m   ID.[m[90mID_RB.[32m[190.  0][m [95mhwdata_a[m =
+[90m   ID.[m[90mID_RB.[mAGXHWDataA @ 0xffffffa00c33efc0:
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[  0.  4][m [95munk_0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[  4.  4][m [95munk_4[m = 0x2ee00
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[  8.  4][m [95munk_8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[  c.  4][m [95mpwr_status[m = 0x4
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 10.  4][m [95munk_10[m = 1.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 14.  4][m [95munk_14[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 18.  4][m [95munk_18[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 1c.  4][m [95munk_1c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 20.  4][m [95munk_20[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 24.  4][m [95munk_24[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 28.  4][m [95mactual_pstate[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 2c.  4][m [95mtgt_pstate[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 30.  4][m [95munk_30[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 34.  4][m [95mcur_pstate[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 38.  4][m [95munk_38[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 3c.  4][m [95munk_3c[m = 0x64
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 40.  4][m [95munk_40[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 44.  4][m [95munk_44[m = 0x258
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 48.  4][m [95munk_48[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 4c.  4][m [95munk_4c[m = 0x64
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 50.  4][m [95mfreq_mhz[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 54. 20][m [95munk_54[m = bytes(0x20)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ 74. 40][m [95munk_74[m = [1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137 ...]
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ b4.100][m [95munk_b4[m = bytes(0x100)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1b4.  4][m [95munk_1b4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1b8.  4][m [95mtemp_c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1bc.  4][m [95mavg_power_mw[m = 0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1c0.  8][m [95mupdate_ts[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1c8.  4][m [95munk_1c8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1cc.478][m [95munk_1cc[m = bytes(0x478)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[644.  8][m [95mpad_644[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[64c.  4][m [95munk_64c[m = 0x271
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[650.  4][m [95munk_650[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[654.  4][m [95mpad_654[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[658.  4][m [95munk_658[m = 0.9968051314353943
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[65c.  4][m [95mpad_65c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[660.  4][m [95munk_660[m = 0.00319488812237978
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[664.  4][m [95mpad_664[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[668.  4][m [95munk_668[m = 0.020212899893522263
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[66c.  4][m [95mpad_66c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[670.  4][m [95munk_670[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[674.  4][m [95munk_674[m = 81415.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[678.  4][m [95munk_678[m = 5.2831854820251465
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[67c.  4][m [95mpad_67c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[680.  4][m [95munk_680[m = 0xbbf17d19
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[684.  4][m [95munk_684[m = 0xfffffdd0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[688.  4][m [95munk_688[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[68c.  4][m [95munk_68c[m = 0x258
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[690.  4][m [95mpad_690[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[694.  4][m [95munk_694[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[698.  4][m [95munk_698[m = 0x13e07
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[69c. 18][m [95mpad_69c[m = bytes(0x18)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6b4.  4][m [95munk_6b4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6b8.  4][m [95munk_6b8[m = 0x258
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6bc.  4][m [95munk_6bc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6c0. 14][m [95mpad_6c0[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6d4.  4][m [95munk_6d4[m = 0x30
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6d8.  4][m [95munk_6d8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6dc.  4][m [95mpad_6dc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6e0.  4][m [95munk_6e0[m = 0.9166666865348816
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6e4.  4][m [95mpad_6e4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6e8.  4][m [95munk_6e8[m = 0.0833333358168602
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6ec.  4][m [95mpad_6ec[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6f0.  4][m [95munk_6f0[m = 0.24000000953674316
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6f4.  4][m [95mpad_6f4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6f8.  4][m [95munk_6f8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[6fc.  4][m [95munk_6fc[m = 65536.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[700.  4][m [95munk_700[m = 1.5
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[704.  4][m [95mpad_704[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[708.  4][m [95munk_708[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[70c.  4][m [95munk_70c[m = 0x28
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[710.  4][m [95munk_710[m = 0x258
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[714.  4][m [95munk_714[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[718.  4][m [95mpad_718[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[71c.  4][m [95munk_71c[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[720.  4][m [95munk_720[m = 0x13e07
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[724.  4][m [95mcur_power_mw_2[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[728.  4][m [95munk_728[m = 0x64
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[72c.  4][m [95munk_72c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[730.  4][m [95munk_730[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[734.  4][m [95munk_734[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[738.  4][m [95munk_738[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[73c.  4][m [95munk_73c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[740.  4][m [95munk_740[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[744.  4][m [95munk_744[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[748. 10][m [95munk_748[m = [0.0 ...]
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[758.  4][m [95munk_758[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[75c.  4][m [95munk_75c[m = 0x55
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[760.  4][m [95mpad_760[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[764.  4][m [95munk_764[m = 0x5a
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[768.  4][m [95munk_768[m = 0x32
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[76c.  4][m [95munk_76c[m = 0x6
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[770.  4][m [95mpad_770[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[774.  4][m [95munk_774[m = 0x6
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[778.  4][m [95munk_778[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[77c.  4][m [95munk_77c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[780.  4][m [95munk_780[m = 0.800000011920929
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[784.  4][m [95munk_784[m = 0.9800000190734863
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[788.  4][m [95munk_788[m = 0.20000000298023224
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[78c.  4][m [95munk_78c[m = 0.019999999552965164
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[790.  4][m [95munk_790[m = 6.300000190734863
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[794.  4][m [95munk_794[m = 0.19739200174808502
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[798.  4][m [95munk_798[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[79c.  4][m [95munk_79c[m = 95.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7a0.  4][m [95munk_7a0[m = 15.75
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7a4.  4][m [95munk_7a4[m = 6.853981018066406
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7a8.  4][m [95munk_7a8[m = 5.263157844543457
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7ac.  4][m [95munk_7ac[m = 100
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7b0.  4][m [95munk_7b0[m = 600
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7b4.  4][m [95munk_7b4[m = 100
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7b8.  4][m [95mpad_7b8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7bc.  4][m [95muse_percent[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7c0.  4][m [95munk_7c0[m = 0x55
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7c4. 18][m [95mpad_7c4[m = bytes(0x18)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7dc.  4][m [95munk_7dc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7e0.  4][m [95munk_7e0[m = 100
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7e4.  4][m [95mpad_7e4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7e8. 14][m [95munk_7e8[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[7fc.  4][m [95munk_7fc[m = 65536.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[800.  4][m [95munk_800[m = 40.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[804.  4][m [95munk_804[m = 600.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[808.  4][m [95munk_808[m = 0x510
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[80c.  4][m [95mpad_80c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[810.  4][m [95munk_810[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[814.  4][m [95mpad_814[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[818.  4][m [95munk_818[m = 0x28
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[81c.  4][m [95munk_81c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[820.  4][m [95mpad_820[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[824.  4][m [95munk_824[m = 100.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[828.  4][m [95munk_828[m = 600
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[82c.  4][m [95munk_82c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[830.  4][m [95munk_830[m = 0.800000011920929
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[834.  4][m [95munk_834[m = 0.20000000298023224
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[838.  4][m [95munk_838[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[83c.  4][m [95munk_83c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[840. 2c][m [95mpad_840[m = bytes(0x2c)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[86c.  4][m [95munk_86c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[870.  4][m [95munk_870[m = 0x80808080
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[874.  4][m [95munk_874[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[878.  4][m [95munk_878[m = 0x1f40
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[87c.  4][m [95munk_87c[m = 0x384
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[880.  4][m [95munk_880[m = 0x4
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[884.  4][m [95munk_884[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[888.  4][m [95mpad_888[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[88c.  4][m [95munk_88c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[890.  4][m [95mpad_890[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[894.  4][m [95munk_894[m = 1.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[898.  4][m [95mpad_898[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[89c.  4][m [95munk_89c[m = 4.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8a0.  4][m [95mpad_8a0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8a4.  4][m [95munk_8a4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8a8.  4][m [95munk_8a8[m = 65536.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8ac.  4][m [95munk_8ac[m = 72.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8b0.  4][m [95mpad_8b0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8b4.  4][m [95munk_8b4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8b8.  4][m [95munk_8b8[m = 0x28
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8bc.  4][m [95munk_8bc[m = 600
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8c0.  4][m [95munk_8c0[m = 600
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8c4.  4][m [95munk_8c4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8c8.  4][m [95munk_8c8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8cc.  4][m [95munk_8cc[m = 0x2af8
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8d0. 14][m [95mpad_8d0[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8e4.  4][m [95munk_8e4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8e8.  4][m [95munk_8e8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8ec.  4][m [95munk_8ec[m = 600
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8f0.  4][m [95munk_8f0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8f4.  4][m [95munk_8f4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8f8.  4][m [95mpad_8f8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[8fc.  4][m [95mpad_8fc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[900.294][m [95munk_900[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0000   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0010   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0020   00 00 00 00 73 68 1D 41 00 00 00 00 00 00 00 00   ....sh.A........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0030   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0040   00 00 00 00 A0 1A 1D 41 00 00 00 00 00 00 00 00   .......A........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0050   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0060   00 00 00 00 4C 37 1D 41 00 00 00 00 00 00 00 00   ....L7.A........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0070   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0080   00 00 00 00 B4 C8 1C 41 00 00 00 00 00 00 00 00   .......A........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0090   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0100   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0110   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0120   00 00 00 00 73 68 1D 41 00 00 00 00 00 00 00 00   ....sh.A........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0130   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0140   00 00 00 00 A0 1A 1D 41 00 00 00 00 00 00 00 00   .......A........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0150   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0160   00 00 00 00 4C 37 1D 41 00 00 00 00 00 00 00 00   ....L7.A........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0170   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0180   00 00 00 00 B4 C8 1C 41 00 00 00 00 00 00 00 00   .......A........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0190   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0200   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0210   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0220   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0230   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0240   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0250   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0260   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0270   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0280   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0290   00 00 00 00                                       ....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m""")
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[b94.  4][m [95munk_b94[m = 600
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[b98.  4][m [95mfreq_with_off[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[b9c.  4][m [95munk_b9c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ba0.  8][m [95munk_ba0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[ba8.  8][m [95munk_ba8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[bb0.  4][m [95munk_bb0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[bb4.  4][m [95munk_bb4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[bb8. 74][m [95mpad_bb8[m = bytes(0x74)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c2c.  4][m [95munk_c2c[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c30.  4][m [95munk_c30[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c34.  4][m [95munk_c34[m = 0x13e07
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c38.  4][m [95munk_c38[m = 0x13e07
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c3c.  4][m [95munk_c3c[m = 0x13e07
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c40.  4][m [95munk_c40[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c44.  4][m [95munk_c44[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c48.  4][m [95munk_c48[m = 0.9919999837875366
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c4c.  4][m [95munk_c4c[m = 0.00800000037997961
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c50.  4][m [95munk_c50[m = 500
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c54.  4][m [95munk_c54[m = 1000
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c58.  4][m [95munk_c58[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c5c.  4][m [95munk_c5c[m = 0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c60.  4][m [95munk_c60[m = 0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c64.  4][m [95munk_c64[m = 0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c68.  4][m [95munk_c68[m = 0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c6c.  4][m [95munk_c6c[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c70.  4][m [95munk_c70[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c74.  4][m [95mpad_c74[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c78.  4][m [95munk_c78[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c7c.  4][m [95munk_c7c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c80.  4][m [95munk_c80[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c84.  4][m [95munk_c84[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c88.  4][m [95munk_c88[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c8c.  4][m [95munk_c8c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[c90. 60][m [95munk_c90[m = bytes(0x60)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[cf0.  4][m [95munk_cf0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[cf4.  4][m [95munk_cf4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[cf8.  4][m [95munk_cf8[m = 500
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[cfc.  4][m [95munk_cfc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d00.  4][m [95munk_d00[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d04.  4][m [95munk_d04[m = 0.9919999837875366
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d08.  4][m [95munk_d08[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d0c.  4][m [95munk_d0c[m = 0.00800000037997961
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d10.  4][m [95munk_d10[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d14.  4][m [95munk_d14[m = 0.019200000911951065
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d18.  4][m [95munk_d18[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d1c.  4][m [95munk_d1c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d20.  4][m [95munk_d20[m = 65536.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d24.  4][m [95munk_d24[m = 1.5
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d28.  4][m [95munk_d28[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d2c.  4][m [95munk_d2c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d30.  4][m [95munk_d30[m = 0x28
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d34.  4][m [95munk_d34[m = 0x258
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d38.  4][m [95munk_d38[m = 0x258
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d3c.  4][m [95munk_d3c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d40.  4][m [95munk_d40[m = 81415.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d44.  4][m [95munk_d44[m = 0x13e07
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d48.  4][m [95munk_d48[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d4c.  4][m [95munk_d4c[m = 0x3e8
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d50.  4][m [95munk_d50[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d54. 10][m [95munk_d54[m = bytes(0x10)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d64.  4][m [95munk_d64[m = 0x258
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d68. 24][m [95munk_d68[m = bytes(0x24)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d8c.  4][m [95munk_d8c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d90.  4][m [95munk_d90[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d94.  4][m [95munk_d94[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d98.  4][m [95munk_d98[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[d9c.  4][m [95munk_d9c[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[da0.  4][m [95munk_da0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[da4.  4][m [95munk_da4[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[da8.  4][m [95munk_da8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[dac.  4][m [95munk_dac[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[db0.  4][m [95munk_db0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[db4.  4][m [95munk_db4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[db8.  4][m [95munk_db8[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[dbc.  4][m [95munk_dbc[m = 0.0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[dc0.  4][m [95munk_dc0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[dc4.  4][m [95munk_dc4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[dc8.  4][m [95munk_dc8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[dcc.  4][m [95munk_dcc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[dd0. 40][m [95munk_dd0[m = bytes(0x40)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[e10. 20][m [95munk_e10[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0000   00 00 00 00 00 00 00 00 00 00 00 00 80 80 80 80   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0010   00 00 00 00 7D 00 00 00 01 00 00 00 00 00 00 00   ....}...........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m""")
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[e30.7e0][m [95mpad_e30[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0000   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0010   00 00 00 00 00 00 00 00 00 00 50 41 00 00 00 00   ..........PA....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0020   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0030   00 00 00 00 00 00 00 00 00 00 50 41 00 00 00 00   ..........PA....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0040   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0050   00 00 00 00 00 00 00 00 00 00 50 41 00 00 00 00   ..........PA....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0060   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0070   00 00 00 00 00 00 00 00 00 00 50 41 00 00 00 00   ..........PA....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0080   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0090   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m00F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0100   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0110   00 00 00 00 00 00 00 00 00 00 50 41 00 00 00 00   ..........PA....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0120   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0130   00 00 00 00 00 00 00 00 00 00 50 41 00 00 00 00   ..........PA....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0140   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0150   00 00 00 00 00 00 00 00 00 00 50 41 00 00 00 00   ..........PA....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0160   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0170   00 00 00 00 00 00 00 00 00 00 50 41 00 00 00 00   ..........PA....
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0180   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0190   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m01F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0200   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0210   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0220   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0230   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0240   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0250   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0260   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0270   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0280   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0290   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m02A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m02B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m02C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m02D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m02E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m02F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0300   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0310   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0320   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0330   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0340   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0350   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0360   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0370   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0380   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0390   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m03A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m03B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m03C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m03D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m03E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m03F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0400   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0410   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0420   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0430   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0440   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0450   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0460   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0470   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0480   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0490   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m04A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m04B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m04C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m04D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m04E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m04F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0500   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0510   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0520   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0530   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0540   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0550   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0560   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0570   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0580   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0590   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m05A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m05B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m05C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m05D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m05E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m05F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0600   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0610   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0620   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0630   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0640   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0650   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0660   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0670   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0680   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0690   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m06A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m06B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m06C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m06D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m06E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m06F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0700   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0710   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0720   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0730   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0740   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0750   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0760   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0770   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0780   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0790   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m07A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m07B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m07C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m07D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m""")
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1610. 28][m [95munk_1610[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0000   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0010   00 00 00 00 00 00 00 00 00 00 00 00 90 90 90 90   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0020   00 00 00 00 0F 00 00 00                           ........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m""")
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1638.  8][m [95munk_1638[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0000   00 00 00 00 01 00 00 00                           ........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m""")
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[1640.2000][m [95munk_1640[m = bytes(0x2000)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3640.  4][m [95munk_3640[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3644. ac][m [95mhws1[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mAGXHWDataShared1 @ 0xffffffa00c342604:
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[  0.  4][m [95munk_0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[  4.  4][m [95munk_4[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[  8.  4][m [95munk_8[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[  c.  4][m [95munk_c[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 10.  4][m [95munk_10[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 14.  4][m [95munk_14[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 18.  4][m [95munk_18[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 1c.  4][m [95munk_1c[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 20.  4][m [95munk_20[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 24.  4][m [95munk_24[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 28.  4][m [95munk_28[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 2c.  4][m [95munk_2c[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 30.  4][m [95munk_30[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 34.  4][m [95munk_34[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 38.  4][m [95munk_38[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 3c.  4][m [95munk_3c[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 40.  4][m [95munk_40[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 44.  8][m [95munk_44[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ 4c. 58][m [95munk_4c[m = bytes(0x58)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ a4.  4][m [95munk_a4[m = 0xffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS1.[32m[ a8.  4][m [95munk_a8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[36f0.50c][m [95mhws2[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mAGXHWDataShared2 @ 0xffffffa00c3426b0:
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[32m[  0.  4][m [95munk_ac[m = 0xffffffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[32m[  4.  4][m [95munk_b0[m = 0xffffffff
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[32m[  8. 18][m [95munk_b4[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[m0000   FF FF FF FF FF FF FF FF AA 02 00 00 AA 0A 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[m0010   FF FF FF FF FF FF FF FF                           ........
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[m""")
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[32m[ 20.  8][m [95munk_cc[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[32m[ 28. 10][m [95munk_d4[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[m0000   FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[m""")
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[32m[ 38.  8][m [95munk_e4[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[32m[ 40.4c8][m [95munk_ec[m = bytes(0x4c8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m[90mAGXS2.[32m[508.  4][m [95munk_5b4[m = 0xcc00001
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3bfc.  4][m [95munk_3bfc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3c00. a0][m [95munk_3c00[m = bytes(0xa0)
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3ca0.  8][m [95munk_3ca0[m = 0x9eb3ba5f
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3ca8.  8][m [95munk_3ca8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3cb0.  8][m [95munk_3cb0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3cb8.  8][m [95mts_last_idle[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3cc0.  8][m [95mts_last_poweron[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3cc8.  8][m [95mts_last_poweroff[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3cd0.  8][m [95munk_3cd0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3cd8.  8][m [95munk_3cd8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3ce0. 40][m [95munk_3ce0[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0000   00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0010   00 00 00 00 00 40 A4 44 00 40 A6 44 00 40 A4 44   .....@.D.@.D.@.D
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0020   00 00 A1 44 00 00 00 00 00 00 00 00 00 00 00 00   ...D............
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0030   00 00 00 00 00 00 A8 41 00 00 A8 41 00 00 B0 41   .......A...A...A
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m""")
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[32m[3d20. 4c][m [95munk_3d20[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[mhexundump("""
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0000   00 00 A8 41 00 00 00 00 00 00 00 00 00 00 00 00   ...A............
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0010   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0020   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0030   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m0040   00 00 00 00 00 00 00 00 00 00 00 00               ............
+[90m   ID.[m[90mID_RB.[m[90mAGXDA.[m""")
+[90m   ID.[m[90mID_RB.[32m[190.  8][m [95munkptr_190[m = 0xffffffa00c342d40
+[90m   ID.[m[90mID_RB.[32m[198.  0][m [95munk_190[m = bytes(0x80)
+[90m   ID.[m[90mID_RB.[32m[198.  8][m [95munkptr_198[m = 0xffffffa00c343940
+[90m   ID.[m[90mID_RB.[32m[1a0.  0][m [95munk_198[m = bytes(0xc0)
+[90m   ID.[m[90mID_RB.[32m[1a0.  8][m [95mhwdata_b_addr[m = 0xffffffa00c342dc0 (AGXHWDataB)
+[90m   ID.[m[90mID_RB.[32m[1a8.  0][m [95mhwdata_b[m =
+[90m   ID.[m[90mID_RB.[mAGXHWDataB @ 0xffffffa00c342dc0:
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[  0.  8][m [95munk_0[m = 0x1300000000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[  8.  8][m [95munk_8[m = 0x1400000000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ 10.  8][m [95munk_10[m = 0x100000000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ 18.  8][m [95munk_18[m = 0xffc00000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ 20.  8][m [95munk_20[m = 0x1100000000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ 28.  8][m [95munk_28[m = 0x1100000000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ 30.  8][m [95munk_30[m = 0x6fffff8000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ 38.  8][m [95munkptr_38[m = 0xffffffa011800000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ 40. 20][m [95mpad_40[m = bytes(0x20)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ 60.168][m [95myuv_matrices[m = [[[0x2000, -0x8, 0x2cdb, -0x2cd3], [0x2000, -0xb00, -0x16da, 0x21da], [0x2000, 0x38b6, 0x8, -0x38be]], [[0x2000, -0x1, 0x3264, -0x3263], [0x2000, -0x5fe, -0xefb, 0x14f9], [0x2000, 0x3b61, 0x1, -0x3b62]], [[0x2000, 0x0, 0x2f30, -0x2f30], [0x2000, -0x544, -0x1248, 0x178c], [0x2000, 0x3c34, -0x1, -0x3c33]], [[0x2568, -0x9, 0x3343, -0x37e7], [0x2568, -0xc92, -0x1a1e, 0x2203], [0x2568, 0x40cf, 0x9, -0x4585]], [[0x2568, -0x1, 0x3997, -0x3e43], [0x2568, -0x6d9, -0x111f, 0x134b], [0x2568, 0x43dd, 0x1, -0x488b]], [[0x2568, 0x0, 0x35ee, -0x3a9b], [0x2568, -0x604, -0x14e5, 0x163c], [0x2568, 0x44ce, -0x1, -0x497a]], [[0x24cb, 0x0, 0x2cfa, -0x3676], [0x24cb, -0xb0a, -0x16e9, 0x1877], [0x24cb, 0x38d9, 0x0, -0x4255]], [[0x0 ...], [0x0 ...], [0x0 ...]], [[0x2645, 0x4b23, 0xe98 ...], [-0x15a1, -0x2a5e, 0x3fff, 0x4000], [0x4000, -0x35a2, -0xa5e, 0x4000]], [[0x1b37, 0x5b8c, 0x93d ...], [-0xeac, -0x3155, 0x4000, 0x4000], [0x4000, -0x3a24, -0x5dd, 0x4000]], [[0x21a0, 0x56c9, 0x797 ...], [-0x11de, -0x2e22, 0x4000, 0x4000], [0x4000, -0x3adb, -0x526, 0x4000]], [[0x20bd, 0x4047, 0xc7c, 0x800], [-0x12ed, -0x2513, 0x3800, 0x4000], [0x3800, -0x2eee, -0x912, 0x4000]], [[0x1748, 0x4e51, 0x7e7, 0x800], [-0xcd6, -0x2b2a, 0x3800, 0x4000], [0x3800, -0x32df, -0x521, 0x4000]], [[0x1cc4, 0x4a3e, 0x67e, 0x800], [-0xfa3, -0x285e, 0x3800, 0x4000], [0x3800, -0x337f, -0x481, 0x4000]], [[-0x8000 ...], [0x0, -0x8000 ...], [0x0, 0x0, -0x8000 ...]]]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[1c8.  8][m [95mpad_1c8[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[1d0.280][m [95mio_mappings[m =
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m[
+  
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RW 0xffffffa010000000 -> sgx[1]+0x0 (0x1c000 / 0x1c000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RO 0xffffffa010020000 -> unknown+0x20e100000 (0x4000 / 0x4000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RW 0xffffffa010028000 -> aic[0]+0x4000 (0x4000 / 0x4000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RW 0xffffffa010030000 -> sgx[0]+0x0 (0x20000 / 0x20000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>, 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>, 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>, 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RO 0xffffffa010058000 -> pmgr[34]+0x94000 (0x4000 / 0x4000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>, 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RW 0xffffffa010060000 -> unknown+0x404d80000 (0x8000 / 0x8000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RW 0xffffffa010071000 -> mcc[4]+0xd61000 (0x1000 / 0x1000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RW 0xffffffa010078000 -> mcc[0]+0x0 (0x6c0000 / 0xd8000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>, 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>, 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RW 0xffffffa010740000 -> unknown+0x2643c4000 (0x1000 / 0x1000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>,
+  
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>, 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m<IOMapping: Invalid>, 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RW 0xffffffa010748000 -> pmgr[41]+0x10000 (0x1000 / 0x1000), 
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[mIO Mapping: RO 0xffffffa010750000 -> pmgr[41]+0x0 (0x2000 / 0x2000),
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[m]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[450.  4][m [95mchip_id[m = 0x6001
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[454.  4][m [95munk_454[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[458.  4][m [95munk_458[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[45c.  4][m [95munk_45c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[460.  4][m [95munk_460[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[464.  4][m [95munk_464[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[468.  4][m [95munk_468[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[46c.  4][m [95munk_46c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[470.  4][m [95munk_470[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[474.  4][m [95munk_474[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[478.  4][m [95munk_478[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[47c.  4][m [95munk_47c[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[480.  4][m [95munk_480[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[484.  4][m [95munk_484[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[488.  4][m [95munk_488[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[48c.  4][m [95munk_48c[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[490.  4][m [95munk_490[m = 0x5dc0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[494.  4][m [95munk_494[m = 0x8
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[498.  4][m [95mpad_498[m = bytes(0x4)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[49c.  4][m [95munk_49c[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4a0.  4][m [95munk_4a0[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4a4.  4][m [95munk_4a4[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4a8.  4][m [95mpad_4a8[m = bytes(0x4)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4ac.  4][m [95munk_4ac[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4b0.  8][m [95mpad_4b0[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4b8.  4][m [95munk_4b8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4bc.  4][m [95munk_4bc[m = bytes(0x4)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4c0.  4][m [95munk_4c0[m = 0x1f
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4c4.  4][m [95munk_4c4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4c8.  4][m [95munk_4c8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4cc.  4][m [95munk_4cc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4d0.  4][m [95munk_4d0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4d4.  4][m [95munk_4d4[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4d8.  4][m [95munk_4d8[m = bytes(0x4)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4dc.  4][m [95munk_4dc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4e0.  8][m [95munk_4e0[m = 0x4
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4e8.  4][m [95munk_4e8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4ec.  4][m [95munk_4ec[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4f0.  4][m [95munk_4f0[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4f4.  4][m [95munk_4f4[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4f8.  4][m [95munk_4f8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[4fc.  4][m [95munk_4fc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[500.  4][m [95munk_500[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[504.  4][m [95munk_504[m = 0x31
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[508.  4][m [95munk_508[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[50c.  4][m [95munk_50c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[510.  4][m [95munk_510[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[514.  4][m [95munk_514[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[518.  4][m [95munk_518[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[51c.  4][m [95munk_51c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[520.  4][m [95munk_520[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[524.  4][m [95munk_524[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[528.  4][m [95munk_528[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[52c.  4][m [95munk_52c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[530.  4][m [95munk_530[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[534.  4][m [95munk_534[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[538.  4][m [95munk_538[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[53c.  4][m [95munk_53c[m = 0x20
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[540.  4][m [95munk_540[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[544.  4][m [95munk_544[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[548.  4][m [95munk_548[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[54c.  4][m [95munk_54c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[550.  4][m [95munk_550[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[554.  4][m [95munk_554[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[558.  4][m [95munk_558[m = 0xfffb8000
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[55c.  4][m [95munk_55c[m = 0x10f
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[560.  4][m [95munk_560[m = 0xd
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[564.  4][m [95munk_564[m = 0x5
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[568.  4][m [95munk_568[m = 0x20
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[56c.  4][m [95mmax_pstate[m = 0x6
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[570.  4][m [95mnum_pstates[m = 0x7
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[574. 40][m [95mfrequencies[m = [0x0, 0x184, 0x1e6, 0x288, 0x309, 0x3cc, 0x510 ...]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[5b4.200][m [95mvoltages[m = [[0x190, 0x190, 0x190, 0x190, 0x190, 0x190, 0x190, 0x190], [0x274, 0x274, 0x280, 0x274, 0x274, 0x274, 0x274, 0x274], [0x28a, 0x290, 0x296, 0x28d, 0x28a, 0x28a, 0x28a, 0x28a], [0x2a6, 0x2af, 0x2af, 0x2b2, 0x2a6, 0x2a6, 0x2a6, 0x2a6], [0x2d1, 0x2d8, 0x2d5, 0x2d8, 0x2d1, 0x2d1, 0x2d1, 0x2d1], [0x30a, 0x30a, 0x30d, 0x310, 0x30a, 0x30a, 0x30a, 0x30a], [0x37d, 0x371, 0x37a, 0x37d, 0x37d, 0x37d, 0x37d, 0x37d], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...]]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[7b4.200][m [95mvoltages_sram[m = [[0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316], [0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316], [0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316], [0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316], [0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316], [0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316, 0x316], [0x37d, 0x371, 0x37a, 0x37d, 0x37d, 0x37d, 0x37d, 0x37d], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...], [0x0 ...]]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[9b4. 40][m [95munk_9b4[m = [1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137 ...]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[9f4. 40][m [95munk_9f4[m = [0x0 ...]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a34. 40][m [95mperf_levels[m = [0x0, 0xf, 0x14, 0x1b, 0x24, 0x34, 0x64 ...]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a74.  4][m [95munk_a74[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a78.  4][m [95munk_a78[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a7c.  4][m [95munk_a7c[m = 0xa
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a80.  4][m [95munk_a80[m = 0x1c
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a84.  4][m [95munk_a84[m = 0x2a
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a88.  4][m [95munk_a88[m = 0x40
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a8c.  4][m [95munk_a8c[m = 0x64
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[a90. 24][m [95mpad_a90[m = bytes(0x24)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ab4.  4][m [95mmin_volt[m = 0x316
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ab8.  4][m [95munk_ab8[m = 0x2084
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[abc.  4][m [95munk_abc[m = 0x80
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ac0.  4][m [95munk_ac0[m = 0x1020
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ac4.  8][m [95mpad_ac4[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[acc.  4][m [95munk_acc[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ad0.  4][m [95munk_ad0[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ad4. 10][m [95mpad_ad4[m = bytes(0x10)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[ae4. 10][m [95munk_ae4[m = [0x0, 0xf, 0x3f, 0x3f]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[af4.  4][m [95mpad_af4[m = bytes(0x4)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[af8.  4][m [95munk_af8[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[afc.  8][m [95mpad_afc[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b04.  4][m [95munk_b04[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b08.  4][m [95munk_b08[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b0c.  4][m [95munk_b0c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b10.  4][m [95munk_b10[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b14.  8][m [95mpad_b14[m = bytes(0x8)
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b1c.  4][m [95munk_b1c[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b20.  4][m [95munk_b20[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b24.  4][m [95munk_b24[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b28.  4][m [95munk_b28[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b2c.  4][m [95munk_b2c[m = 0x1
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b30.  4][m [95munk_b30[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b34.  4][m [95munk_b34[m = 0x0
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b38. 30][m [95munk_b38[m = [0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff]
+[90m   ID.[m[90mID_RB.[m[90mAGXDB.[32m[b68.  4][m [95munk_b68[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[1a8.  8][m [95mhwdata_b_addr2[m = 0xffffffa00c342dc0 (AGXHWDataB)
+[90m   ID.[m[90mID_RB.[32m[1b0.  8][m [95mfwlog_ring2[m = 0xffffffa00004a740
+[90m   ID.[m[90mID_RB.[32m[1b8.  8][m [95munkptr_1b8[m = 0xffffffa00c380000
+[90m   ID.[m[90mID_RB.[32m[1c0.  0][m [95munk_1b8[m = <function Lazy._parse.<locals>.execute at 0x7fdd975dfa30>
+[90m   ID.[m[90mID_RB.[32m[1c0.  8][m [95munkptr_1c0[m = 0xffffffa00c381000
+[90m   ID.[m[90mID_RB.[32m[1c8.  0][m [95munk_1c0[m = <function Lazy._parse.<locals>.execute at 0x7fdd978864d0>
+[90m   ID.[m[90mID_RB.[32m[1c8.  8][m [95munkptr_1c8[m = 0xffffffa00c381300
+[90m   ID.[m[90mID_RB.[32m[1d0.  0][m [95munk_1c8[m = <function Lazy._parse.<locals>.execute at 0x7fdd97886560>
+[90m   ID.[m[90mID_RB.[32m[1d0.  4][m [95munk_1d0[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[1d4.  4][m [95munk_1d4[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[1d8. 3c][m [95munk_1d8[m = bytes(0x3c)
+[90m   ID.[m[90mID_RB.[32m[214.  8][m [95mbuffer_mgr_ctl_addr[m = 0xffffffa0000d0000 (InitData_BufferMgrCtl)
+[90m   ID.[m[90mID_RB.[32m[21c.  0][m [95mbuffer_mgr_ctl[m =
+[90m   ID.[m[90mID_RB.[mInitData_BufferMgrCtl @ 0xffffffa0000d0000:	[
+[90m   ID.[m[90mID_RB.[m  bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10),
+[90m   ID.[m[90mID_RB.[m  bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10),
+[90m   ID.[m[90mID_RB.[m  bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10),
+[90m   ID.[m[90mID_RB.[m  bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10),
+[90m   ID.[m[90mID_RB.[m  bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10),
+[90m   ID.[m[90mID_RB.[m  bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10),
+[90m   ID.[m[90mID_RB.[m  bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10),
+[90m   ID.[m[90mID_RB.[m  bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10), bytes(0x10),
+[90m   ID.[m[90mID_RB.[m]
+[90m   ID.[m[90mID_RB.[32m[21c.  8][m [95mbuffer_mgr_ctl_addr2[m = 0xffffffa0000d0000 (InitData_BufferMgrCtl)
+[90m   ID.[m[90mID_RB.[32m[224.685c][m [95munk_224[m = bytes(0x685c)
+[90m   ID.[m[90mID_RB.[32m[6a80.  4][m [95munk_6a80[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6a84.  4][m [95mgpu_idle[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6a88. 14][m [95munkpad_6a88[m = bytes(0x14)
+[90m   ID.[m[90mID_RB.[32m[6a9c.  4][m [95munk_6a9c[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6aa0.  4][m [95munk_ctr0[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6aa4.  4][m [95munk_ctr1[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6aa8.  4][m [95munk_6aa8[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6aac.  4][m [95munk_6aac[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ab0.  4][m [95munk_ctr2[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ab4.  4][m [95munk_6ab4[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ab8.  4][m [95munk_6ab8[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6abc.  4][m [95munk_6abc[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ac0.  4][m [95munk_6ac0[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ac4.  4][m [95munk_6ac4[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ac8.  4][m [95munk_ctr3[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6acc.  4][m [95munk_6acc[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ad0.  4][m [95munk_6ad0[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ad4.  4][m [95munk_6ad4[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ad8.  4][m [95munk_6ad8[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6adc.  4][m [95munk_6adc[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ae0.  4][m [95munk_6ae0[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ae4.  4][m [95munk_6ae4[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6ae8.  4][m [95munk_6ae8[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6aec.  4][m [95munk_6aec[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6af0.  4][m [95munk_6af0[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6af4.  4][m [95munk_ctr4[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6af8.  4][m [95munk_ctr5[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6afc.  4][m [95munk_6afc[m = 0x0
+[90m   ID.[m[90mID_RB.[32m[6b00. 38][m [95mpad_6b00[m = bytes(0x38)
+[90m   ID.[m[90mID_RB.[32m[6b38.  4][m [95munk_6b38[m = 0xff
+[90m   ID.[m[90mID_RB.[32m[6b3c. 84][m [95mpad_6b3c[m = bytes(0x84)
+[90m   ID.[32m[ 18.  8][m [95mregionC_addr[m = 0xffffffa000020000 (InitData_RegionC)
+[90m   ID.[32m[ 20.  0][m [95mregionC[m =
+[90m   ID.[mInitData_RegionC @ 0xffffffa000020000:
+[90m   ID.[m[90mID_RC.[32m[  0.  4][m [95mktrace_enable[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[  4. 24][m [95munk_4[m = bytes(0x24)
+[90m   ID.[m[90mID_RC.[32m[ 28.  4][m [95munk_28[m = 0x1
+[90m   ID.[m[90mID_RC.[32m[ 2c.  4][m [95munk_2c[m = 0x1
+[90m   ID.[m[90mID_RC.[32m[ 30.  4][m [95munk_30[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[ 34.  4][m [95munk_34[m = 0x78
+[90m   ID.[m[90mID_RC.[32m[ 38. 1c][m [95munk_38[m = bytes(0x1c)
+[90m   ID.[m[90mID_RC.[32m[ 54.  2][m [95munk_54[m = 0xffff
+[90m   ID.[m[90mID_RC.[32m[ 56.  2][m [95munk_56[m = 0x28
+[90m   ID.[m[90mID_RC.[32m[ 58.  2][m [95munk_58[m = 0xffff
+[90m   ID.[m[90mID_RC.[32m[ 5a.  4][m [95munk_5a[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[ 5e.  4][m [95munk_5e[m = 0x1
+[90m   ID.[m[90mID_RC.[32m[ 62.  4][m [95munk_62[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[ 66.  4][m [95munk_66[m = 0x1
+[90m   ID.[m[90mID_RC.[32m[ 6a. 16][m [95munk_6a[m = bytes(0x16)
+[90m   ID.[m[90mID_RC.[32m[ 80.f80][m [95munk_80[m = bytes(0xf80)
+[90m   ID.[m[90mID_RC.[32m[1000.7000][m [95munk_1000[m = bytes(0x7000)
+[90m   ID.[m[90mID_RC.[32m[8000.900][m [95munk_8000[m = bytes(0x900)
+[90m   ID.[m[90mID_RC.[32m[8900.  4][m [95munk_8900[m = 0x1
+[90m   ID.[m[90mID_RC.[32m[8904.  4][m [95munk_atomic[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8908.  4][m [95munk_8908[m = 0x13e07
+[90m   ID.[m[90mID_RC.[32m[890c.  4][m [95munk_890c[m = 0x258
+[90m   ID.[m[90mID_RC.[32m[8910.  4][m [95munk_8910[m = 0x258
+[90m   ID.[m[90mID_RC.[32m[8914.  4][m [95munk_8914[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8918.  4][m [95munk_8918[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[891c.  4][m [95munk_891c[m = 0x258
+[90m   ID.[m[90mID_RC.[32m[8920.  4][m [95munk_8920[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8924.  4][m [95munk_8924[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8928.  4][m [95munk_8928[m = 0x7d
+[90m   ID.[m[90mID_RC.[32m[892c.  4][m [95munk_892c[m = 0.019200000911951065
+[90m   ID.[m[90mID_RC.[32m[8930.  4][m [95munk_8930[m = 1.5
+[90m   ID.[m[90mID_RC.[32m[8934.  4][m [95munk_8934[m = 0x28
+[90m   ID.[m[90mID_RC.[32m[8938.  4][m [95munk_8938[m = 0x7d
+[90m   ID.[m[90mID_RC.[32m[893c.  4][m [95munk_893c[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8940.  4][m [95munk_8940[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8944.  4][m [95munk_8944[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8948.  4][m [95munk_8948[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[894c.  4][m [95munk_894c[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8950. 6c][m [95munk_8950[m = bytes(0x6c)
+[90m   ID.[m[90mID_RC.[32m[89bc.  4][m [95munk_89bc[m = 0x2af8
+[90m   ID.[m[90mID_RC.[32m[89c0.  4][m [95munk_89c0[m = 0x1f40
+[90m   ID.[m[90mID_RC.[32m[89c4.  4][m [95munk_89c4[m = 0x384
+[90m   ID.[m[90mID_RC.[32m[89c8.  4][m [95munk_89c8[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[89cc.  4][m [95munk_89cc[m = 72.0
+[90m   ID.[m[90mID_RC.[32m[89d0.  4][m [95munk_89d0[m = 4.0
+[90m   ID.[m[90mID_RC.[32m[89d4.  c][m [95munk_89d4[m = bytes(0xc)
+[90m   ID.[m[90mID_RC.[32m[89e0.  4][m [95munk_89e0[m = 0x1
+[90m   ID.[m[90mID_RC.[32m[89e4.  4][m [95munk_89e4[m = 0x13e07
+[90m   ID.[m[90mID_RC.[32m[89e8.  4][m [95munk_89e8[m = 1.5
+[90m   ID.[m[90mID_RC.[32m[89ec.  4][m [95munk_89ec[m = 0.24000000953674316
+[90m   ID.[m[90mID_RC.[32m[89f0.  4][m [95munk_89f0[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[89f4. ac][m [95mhws1[m =
+[90m   ID.[m[90mID_RC.[mAGXHWDataShared1 @ 0xffffffa0000289f4:
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[  0.  4][m [95munk_0[m = 0x0
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[  4.  4][m [95munk_4[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[  8.  4][m [95munk_8[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[  c.  4][m [95munk_c[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 10.  4][m [95munk_10[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 14.  4][m [95munk_14[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 18.  4][m [95munk_18[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 1c.  4][m [95munk_1c[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 20.  4][m [95munk_20[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 24.  4][m [95munk_24[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 28.  4][m [95munk_28[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 2c.  4][m [95munk_2c[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 30.  4][m [95munk_30[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 34.  4][m [95munk_34[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 38.  4][m [95munk_38[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 3c.  4][m [95munk_3c[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 40.  4][m [95munk_40[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 44.  8][m [95munk_44[m = bytes(0x8)
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ 4c. 58][m [95munk_4c[m = bytes(0x58)
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ a4.  4][m [95munk_a4[m = 0xffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS1.[32m[ a8.  4][m [95munk_a8[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[8aa0.50c][m [95mhws2[m =
+[90m   ID.[m[90mID_RC.[mAGXHWDataShared2 @ 0xffffffa000028aa0:
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[32m[  0.  4][m [95munk_ac[m = 0xffffffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[32m[  4.  4][m [95munk_b0[m = 0xffffffff
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[32m[  8. 18][m [95munk_b4[m =
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[mhexundump("""
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[m0000   FF FF FF FF FF FF FF FF AA 02 00 00 AA 0A 00 00   ................
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[m0010   FF FF FF FF FF FF FF FF                           ........
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[m""")
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[32m[ 20.  8][m [95munk_cc[m = bytes(0x8)
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[32m[ 28. 10][m [95munk_d4[m =
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[mhexundump("""
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[m0000   FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF   ................
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[m""")
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[32m[ 38.  8][m [95munk_e4[m = bytes(0x8)
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[32m[ 40.4c8][m [95munk_ec[m = bytes(0x4c8)
+[90m   ID.[m[90mID_RC.[m[90mAGXS2.[32m[508.  4][m [95munk_5b4[m = 0xcc00001
+[90m   ID.[m[90mID_RC.[32m[8fac. 60][m [95munk_8fac[m = bytes(0x60)
+[90m   ID.[m[90mID_RC.[32m[900c.  4][m [95munk_900c[m = 0x1
+[90m   ID.[m[90mID_RC.[32m[9010. 2c][m [95munk_9010[m = bytes(0x2c)
+[90m   ID.[m[90mID_RC.[32m[903c.  4][m [95munk_903c[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[9040. c0][m [95munk_9040[m = bytes(0xc0)
+[90m   ID.[m[90mID_RC.[32m[9100.6f00][m [95munk_9100[m = bytes(0x6f00)
+[90m   ID.[m[90mID_RC.[32m[10000.e50][m [95munk_10000[m = bytes(0xe50)
+[90m   ID.[m[90mID_RC.[32m[10e50.  4][m [95munk_10e50[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[10e54. 28][m [95munk_10e54[m = bytes(0x28)
+[90m   ID.[m[90mID_RC.[32m[10e7c.  4][m [95munk_10e80[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[10e80.  4][m [95mdo_init[m = 0xb
+[90m   ID.[m[90mID_RC.[32m[10e84.188][m [95munk_10e88[m =
+[90m   ID.[m[90mID_RC.[mhexundump("""
+[90m   ID.[m[90mID_RC.[m0000   01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0010   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0020   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0030   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0040   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0050   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0060   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0070   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0080   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0090   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0100   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0110   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0120   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0130   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0140   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0150   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0160   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0170   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0180   00 00 00 00 00 00 00 00                           ........
+[90m   ID.[m[90mID_RC.[m""")
+[90m   ID.[m[90mID_RC.[32m[1100c.  8][m [95midle_ts[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[11014.  8][m [95midle_unk[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[1101c.  4][m [95munk_11020[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[11020.  4][m [95munk_11024[m = 0x28
+[90m   ID.[m[90mID_RC.[32m[11024.  4][m [95munk_11028[m = 0xa
+[90m   ID.[m[90mID_RC.[32m[11028.  4][m [95munk_1102c[m = 0xfa
+[90m   ID.[m[90mID_RC.[32m[1102c.  4][m [95midle_to_off_timeout_ms[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[11030.  4][m [95munk_11034[m = 0x2
+[90m   ID.[m[90mID_RC.[32m[11034.  4][m [95munk_11038[m = 0x28
+[90m   ID.[m[90mID_RC.[32m[11038.880][m [95mpending_stamps[m =
+[90m   ID.[m[90mID_RC.[m[InitData_PendingStamp @ 0xffffffa000031038:
+[90m   ID.[m[90mID_RC.[m[90mID_PS.[32m[  0.  4][m [95minfo[m = 0x5
+[90m   ID.[m[90mID_RC.[m[90mID_PS.[32m[  4.  4][m [95mwait_value[m = 0x0
+[90m   ID.[m[90mID_RC.[m ...]
+[90m   ID.[m[90mID_RC.[32m[118b8.  4][m [95munk_117bc[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[118bc. 18][m [95mfault_info[m =
+[90m   ID.[m[90mID_RC.[mInitData_FaultInfo @ 0xffffffa0000318bc:
+[90m   ID.[m[90mID_RC.[m[90mID_FI.[32m[  0.  4][m [95munk_0[m = 0x0
+[90m   ID.[m[90mID_RC.[m[90mID_FI.[32m[  4.  4][m [95munk_4[m = 0x0
+[90m   ID.[m[90mID_RC.[m[90mID_FI.[32m[  8.  4][m [95mqueue_uuid[m = 0x0
+[90m   ID.[m[90mID_RC.[m[90mID_FI.[32m[  c.  4][m [95munk_c[m = 0x0
+[90m   ID.[m[90mID_RC.[m[90mID_FI.[32m[ 10.  4][m [95munk_10[m = 0x0
+[90m   ID.[m[90mID_RC.[m[90mID_FI.[32m[ 14.  4][m [95munk_14[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[118d4.  4][m [95mcounter[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[118d8.  4][m [95munk_118dc[m = 0x0
+[90m   ID.[m[90mID_RC.[32m[118dc.  4][m [95munk_118e0[m = 0
+[90m   ID.[m[90mID_RC.[32m[118e0. 1c][m [95munk_118e4[m =
+[90m   ID.[m[90mID_RC.[mhexundump("""
+[90m   ID.[m[90mID_RC.[m0000   28 00 00 00 00 00 00 00 01 00 00 00 00 01 02 01   (...............
+[90m   ID.[m[90mID_RC.[m0010   01 5A 4B 01 01 01 02 5A 4B 01 01 01               .ZK....ZK...
+[90m   ID.[m[90mID_RC.[m""")
+[90m   ID.[m[90mID_RC.[32m[118fc.440][m [95munk_11900[m =
+[90m   ID.[m[90mID_RC.[mhexundump("""
+[90m   ID.[m[90mID_RC.[m0000   01 5A 4B 01 01 00 00 00 00 00 00 00 00 00 00 00   .ZK.............
+[90m   ID.[m[90mID_RC.[m0010   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0020   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0030   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0040   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0050   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0060   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0070   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0080   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0090   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m00F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0100   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0110   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0120   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0130   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0140   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0150   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0160   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0170   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0180   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0190   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m01A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m01B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m01C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m01D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m01E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m01F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0200   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0210   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0220   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0230   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0240   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0250   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0260   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0270   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0280   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0290   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m02A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m02B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m02C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m02D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m02E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m02F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0300   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0310   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0320   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0330   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0340   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0350   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0360   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0370   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0380   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0390   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m03A0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m03B0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m03C0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m03D0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m03E0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m03F0   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0400   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0410   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0420   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m0430   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+[90m   ID.[m[90mID_RC.[m""")
+[90m   ID.[32m[ 20.  8][m [95mfw_status_addr[m = 0xffffffa0000c0000 (InitData_FWStatus)
+[90m   ID.[32m[ 28.  0][m [95mfw_status[m =
+[90m   ID.[mInitData_FWStatus @ 0xffffffa0000c0000:
+[90m   ID.[m[90mID_WS.[32m[  0. 10][m [95mfwctl_channel[m =
+[90m   ID.[m[90mID_WS.[mChannelInfo @ 0xffffffa0000c0000:
+[90m   ID.[m[90mID_WS.[m[90m   CI.[32m[  0.  8][m [95mstate_addr[m = 0xffffffa0000c0080
+[90m   ID.[m[90mID_WS.[m[90m   CI.[32m[  8.  8][m [95mringbuffer_addr[m = 0xffffffa0000c00c0
+[90m   ID.[m[90mID_WS.[32m[ 10.  4][m [95mhalt_count[m = 0x0
+[90m   ID.[m[90mID_WS.[32m[ 20.  4][m [95mhalted[m = 0x0
+[90m   ID.[m[90mID_WS.[32m[ 30.  4][m [95mresume[m = 0x0
+[90m   ID.[m[90mID_WS.[32m[ 40.  4][m [95munk_40[m = 0x0
+[90m   ID.[m[90mID_WS.[32m[ 50.  4][m [95munk_ctr[m = 0x0
+[90m   ID.[m[90mID_WS.[32m[ 60.  4][m [95munk_60[m = 0x0
+[90m   ID.[m[90mID_WS.[32m[ 70.  4][m [95munk_70[m = 0x0
+[90m   ID.[32m[ 28.  2][m [95muat_page_size[m = 0x4000
+[90m   ID.[32m[ 2a.  1][m [95muat_page_bits[m = 0xe
+[90m   ID.[32m[ 2b.  1][m [95muat_num_levels[m = 0x3
+[90m   ID.[32m[ 2c. 60][m [95muat_level_info[m =
+[90m   ID.[m[UatLevelInfo @ 0xffffffa0000b002c:
+[90m   ID.[m[90m  ULI.[32m[  0.  1][m [95munk_3[m = 0x8
+[90m   ID.[m[90m  ULI.[32m[  1.  1][m [95munk_1[m = 0xe
+[90m   ID.[m[90m  ULI.[32m[  2.  1][m [95munk_2[m = 0xe
+[90m   ID.[m[90m  ULI.[32m[  3.  1][m [95mindex_shift[m = 0x24
+[90m   ID.[m[90m  ULI.[32m[  4.  2][m [95mnum_entries[m = 0x8
+[90m   ID.[m[90m  ULI.[32m[  6.  2][m [95munk_4[m = 0x4000
+[90m   ID.[m[90m  ULI.[32m[  8.  8][m [95munk_8[m = 0x1
+[90m   ID.[m[90m  ULI.[32m[ 10.  8][m [95munk_10[m = 0x3ffffffc000
+[90m   ID.[m[90m  ULI.[32m[ 18.  8][m [95mindex_mask[m = 0x7000000000
+[90m   ID.[m, UatLevelInfo @ 0xffffffa0000b004c:
+[90m   ID.[m[90m  ULI.[32m[  0.  1][m [95munk_3[m = 0x8
+[90m   ID.[m[90m  ULI.[32m[  1.  1][m [95munk_1[m = 0xe
+[90m   ID.[m[90m  ULI.[32m[  2.  1][m [95munk_2[m = 0xe
+[90m   ID.[m[90m  ULI.[32m[  3.  1][m [95mindex_shift[m = 0x19
+[90m   ID.[m[90m  ULI.[32m[  4.  2][m [95mnum_entries[m = 0x800
+[90m   ID.[m[90m  ULI.[32m[  6.  2][m [95munk_4[m = 0x4000
+[90m   ID.[m[90m  ULI.[32m[  8.  8][m [95munk_8[m = 0x1
+[90m   ID.[m[90m  ULI.[32m[ 10.  8][m [95munk_10[m = 0x3ffffffc000
+[90m   ID.[m[90m  ULI.[32m[ 18.  8][m [95mindex_mask[m = 0xffe000000
+[90m   ID.[m, UatLevelInfo @ 0xffffffa0000b006c:
+[90m   ID.[m[90m  ULI.[32m[  0.  1][m [95munk_3[m = 0x8
+[90m   ID.[m[90m  ULI.[32m[  1.  1][m [95munk_1[m = 0xe
+[90m   ID.[m[90m  ULI.[32m[  2.  1][m [95munk_2[m = 0xe
+[90m   ID.[m[90m  ULI.[32m[  3.  1][m [95mindex_shift[m = 0xe
+[90m   ID.[m[90m  ULI.[32m[  4.  2][m [95mnum_entries[m = 0x800
+[90m   ID.[m[90m  ULI.[32m[  6.  2][m [95munk_4[m = 0x4000
+[90m   ID.[m[90m  ULI.[32m[  8.  8][m [95munk_8[m = 0x1
+[90m   ID.[m[90m  ULI.[32m[ 10.  8][m [95munk_10[m = 0x3ffffffc000
+[90m   ID.[m[90m  ULI.[32m[ 18.  8][m [95mindex_mask[m = 0x1ffc000
+[90m   ID.[m]
+[90m   ID.[32m[ 8c. 14][m [95mpad_8c[m = bytes(0x14)
+[90m   ID.[32m[ a0.  4][m [95mhost_mapped_fw_allocations[m = 0x1
+[90m   ID.[32m[ a4.  4][m [95munk_ac[m = 0x0
+[90m   ID.[32m[ a8.  4][m [95munk_b0[m = 0x0
+[90m   ID.[32m[ ac.  4][m [95munk_b4[m = 0x0
+[90m   ID.[32m[ b0.  4][m [95munk_b8[m = 0x0

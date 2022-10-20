@@ -327,7 +327,7 @@ class AGXTracer(ASCTracer):
         self.trace_kernmap = True
         self.trace_usermap = True
         self.pause_after_init = False
-        self.shell_after_init = False
+        self.shell_after_init = True
         self.encoder_id_filter = None
         self.redump = False
 

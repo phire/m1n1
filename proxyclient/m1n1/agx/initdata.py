@@ -10,6 +10,70 @@ def build_iomappings(agx):
         agx.uat.iomap_at(0, virt, phys - off, size + off, AttrIndex=MemoryAttr.Device)
         return IOMapping(phys, virt + off, size, range_size, rw)
 
+    def reg(name, idx):
+        return agx.u.adt["/arm-io/" + name].reg[idx]
+
+    adt = agx.u.adt
+
+#    ID.ID_RB.AGXDB.IO Mapping: RW 0xffffffa010000000 -> sgx[1]+0x0 (0x1c000 / 0x1c000),
+#    ID.ID_RB.AGXDB.IO Mapping: RO 0xffffffa010020000 -> unknown+0x20e100000 (0x4000 / 0x4000),
+#    ID.ID_RB.AGXDB.IO Mapping: RW 0xffffffa010028000 -> aic[0]+0x4000 (0x4000 / 0x4000),
+#    ID.ID_RB.AGXDB.IO Mapping: RW 0xffffffa010030000 -> sgx[0]+0x0 (0x20000 / 0x20000),
+
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+#    ID.ID_RB.AGXDB.IO Mapping: RO 0xffffffa010058000 -> pmgr[34]+0x94000 (0x4000 / 0x4000),
+
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+#    ID.ID_RB.AGXDB.IO Mapping: RW 0xffffffa010060000 -> unknown+0x404d80000 (0x8000 / 0x8000),
+#    ID.ID_RB.AGXDB.IO Mapping: RW 0xffffffa010071000 -> mcc[4]+0xd61000 (0x1000 / 0x1000),
+#    ID.ID_RB.AGXDB.IO Mapping: RW 0xffffffa010078000 -> mcc[0]+0x0 (0x6c0000 / 0xd8000),
+
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+#    ID.ID_RB.AGXDB.IO Mapping: RW 0xffffffa010740000 -> unknown+0x2643c4000 (0x1000 / 0x1000),
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+#    ID.ID_RB.AGXDB.<IOMapping: Invalid>,
+#    ID.ID_RB.AGXDB.IO Mapping: RW 0xffffffa010748000 -> pmgr[41]+0x10000 (0x1000 / 0x1000),
+#    ID.ID_RB.AGXDB.IO Mapping: RO 0xffffffa010750000 -> pmgr[41]+0x0 (0x2000 / 0x2000),
+
+    # for t6000
+
+    memBankCount = 8
+
+    io = [None] * 20
+    io[0] = iomap(reg("sgx", 1), 0x1c000, 0x1c000, 1), # Fender
+    io[1] = iomap(0x20e100000, 0x4000, 0x4000, 0), # AICTimer
+    io[2] = iomap(reg("aic", 0) + 0x4000, 0x4000, 0x4000, 1), # AICSWInt
+    io[3] = iomap(reg["sgx", 0), 0x20000, 0x20000, 1), # RGX
+
+    io[4] = IOMapping(), # UVD
+    io[5] = IOMapping(), # unused
+    io[6] = IOMapping(), # DisplayUnderrunWA
+    io[7] = iomap(reg("pmgr", 34) + 0x94000, 0x1000, 0x1000, 0), # AnalogTempSensorControllerRegs
+
+    if Ver.hw() == "t6000":
+        io[8] = IOMapping(), # PMPDoorbell
+        io[9] = iomap(0x404d80000, 0x8000, 0x8000, 1), # MetrologySensorRegs?
+    else:
+        io[8] = iomap(0x23bc00000, 0x1000, 0x1000, 1), # PMPDoorbell
+        io[9] = iomap(0x204d80000, 0x5000, 0x5000, 1), # MetrologySensorRegs
+    io[10] = iomap(reg("mcc", 4) + 0xd61000, 0x1000, 0x1000, 1), # GMGIFAFRegs
+    io[11] = iomap(reg("mcc", 0), 0xd6400 * memBankCount, 0xd6400, 1), # MCache registers
+    io[12] = IOMapping(), # AICBankedRegisters
+    io[13] = iomap(0x23b738000, 0x1000, 0x1000, 1), # PMGRScratch
+    io[14] = IOMapping(), # NIA Special agent idle register die 0
+    io[15] = IOMapping(), # NIA Special agent idle register die 1
+    io[16] = IOMapping(), # CRE registers
+    io[17] = IOMapping(), # Streaming codec registers
+    io[18] = IOMapping(), #
+    io[19] = IOMapping(), #
+
+    return io
+
     # for t8103
     return [
         iomap(0x204d00000, 0x1c000, 0x1c000, 1), # Fender

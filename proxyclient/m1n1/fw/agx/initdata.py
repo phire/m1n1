@@ -63,24 +63,45 @@ class AGXHWDataShared1(ConstructClass):
 
     def __init__(self):
         super().__init__()
-        self.unk_0 = 0
-        self.unk_4 = 0xffffffff
-        self.unk_8 = 0x7282
-        self.unk_c = 0x50ea
-        self.unk_10 = 0x370a
-        self.unk_14 = 0x25be
-        self.unk_18 = 0x1c1f
-        self.unk_1c = 0x16fb
-        self.unk_20 = 0xffffffff
-        self.unk_24 = 0xffffffff
-        self.unk_28 = 0xffffffff
-        self.unk_2c = 0xffffffff
-        self.unk_30 = 0xffffffff
-        self.unk_34 = 0xffffffff
-        self.unk_38 = 0xffffffff
-        self.unk_3c = 0xffffffff
-        self.unk_40 = 0xffffffff
-        self.unk_44 = bytes(0x8)
+        if Ver.hw() == "t6000":
+            self.unk_0 = 0
+            self.unk_4 = 0xffff
+            self.unk_8 = 0xffff
+            self.unk_c = 0xffff
+            self.unk_10 = 0xffff
+            self.unk_14 = 0xffff
+            self.unk_18 = 0xffff
+            self.unk_1c = 0xffff
+            self.unk_20 = 0xffff
+            self.unk_24 = 0xffff
+            self.unk_28 = 0xffff
+            self.unk_2c = 0xffff
+            self.unk_30 = 0xffff
+            self.unk_34 = 0xffff
+            self.unk_38 = 0xffff
+            self.unk_3c = 0xffff
+            self.unk_40 = 0xffff
+            self.unk_44 = bytes(0x8)
+        else:
+            self.unk_0 = 0
+            self.unk_4 = 0xffffffff
+            self.unk_8 = 0x7282
+            self.unk_c = 0x50ea
+            self.unk_10 = 0x370a
+            self.unk_14 = 0x25be
+            self.unk_18 = 0x1c1f
+            self.unk_1c = 0x16fb
+            self.unk_20 = 0xffffffff
+            self.unk_24 = 0xffffffff
+            self.unk_28 = 0xffffffff
+            self.unk_2c = 0xffffffff
+            self.unk_30 = 0xffffffff
+            self.unk_34 = 0xffffffff
+            self.unk_38 = 0xffffffff
+            self.unk_3c = 0xffffffff
+            self.unk_40 = 0xffffffff
+            self.unk_44 = bytes(0x8)
+
         self.unk_4c = bytes(0x58)
         self.unk_a4 = 0xffff
         self.unk_a8 = 0
@@ -99,14 +120,24 @@ class AGXHWDataShared2(ConstructClass):
 
     def __init__(self):
         super().__init__()
-        self.unk_ac = 0x800
-        self.unk_b0 = 0x1555
-        self.unk_b4 = b"\xff" * 24
-        self.unk_cc = bytes(8)
-        self.unk_d4 = b"\xff" * 16
-        self.unk_e4 = bytes(8)
-        self.unk_ec = bytes(0x4c8)
-        self.unk_5b4 = 0xc0007
+        if Ver.hw() == "t6000":
+            self.unk_ac = 0xffffffff
+            self.unk_b0 = 0xffffffff
+            self.unk_b4 = bytes(0x18)
+            self.unk_cc = bytes(0x8)
+            self.unk_d4 = bytes(0x10)
+            self.unk_e4 = bytes(0x8)
+            self.unk_ec = bytes(0x4c8)
+            self.unk_5b4 = 0xcc00001
+        else:
+            self.unk_ac = 0x800
+            self.unk_b0 = 0x1555
+            self.unk_b4 = b"\xff" * 24
+            self.unk_cc = bytes(8)
+            self.unk_d4 = b"\xff" * 16
+            self.unk_e4 = bytes(8)
+            self.unk_ec = bytes(0x4c8)
+            self.unk_5b4 = 0xc0007
 
 class AGXHWDataA130Extra(ConstructClass):
     subcon = Struct(
@@ -408,7 +439,7 @@ class AGXHWDataA(ConstructClass):
         "unk_8f4" / Int32ul,
         "pad_8f8" / Int32ul,
         "pad_8fc" / Int32ul,
-        "unk_900" / HexDump(Bytes(0x094)),
+        "unk_900" / HexDump(Bytes(0x294)),
         "unk_b94" / Dec(Int32ul),
         "freq_with_off" / Int32ul,
         "unk_b9c" / Int32ul,
@@ -541,9 +572,12 @@ class AGXHWDataA(ConstructClass):
         self.tgt_pstate = 1
         self.unk_30 = 0
         self.cur_pstate = 0
-        self.unk_38 = 0 # 64
+        self.unk_38 = 0
         self.unk_3c_0 = 0
-        self.unk_3c = 300 # 100
+        if Ver.hw() == "t6000":
+            self.unk_3c = 100
+        else:
+            self.unk_3c = 300
         self.unk_40 = 1
         self.unk_44 = 600
         self.unk_48 = 0
@@ -552,8 +586,7 @@ class AGXHWDataA(ConstructClass):
         self.unk_54 = bytes(0x20)
         self.unk_74_0 = 0
         # perf related
-        self.unk_74 = [0] * 16 # [1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137, 1.0199999809265137 ...]
-
+        self.unk_74 = [0] * 16
         self.unk_b4 = bytes(0x100)
         self.unk_1b4 = 0
         self.temp_c = 0
@@ -579,7 +612,10 @@ class AGXHWDataA(ConstructClass):
         # gpu-pwr-proportional-gain
         self.unk_678 = 5.2831854820
         self.pad_67c = 0
-        self.unk_680 = 0xbcfb676e # 0xbbf17d19
+        if Ver.hw() == "t6000":
+            self.unk_680 = 0xbbf17d19
+        else:
+            self.unk_680 = 0xbcfb676e
         self.unk_684 = 0xfffffdd0
         self.unk_688 = 0
         self.unk_68c = 600
@@ -688,10 +724,16 @@ class AGXHWDataA(ConstructClass):
         self.unk_83c = 0x0
         self.pad_840 = bytes(0x2c)
         self.unk_86c = 0x0
-        self.unk_870 = 0x12 # 0x80808080
+        if Ver.hw() == "t6000":
+            self.unk_870 = 0x80808080
+        else:
+            self.unk_870 = 0x12
         self.unk_874 = 0x0
         self.unk_878 = 0x1f40
-        self.unk_87c = 0xffffff24 # 0x384
+        if Ver.hw() == "t6000":
+            self.unk_87c = 0x384
+        else:
+            self.unk_87c = 0xffffff24 # 0x384
         self.unk_880 = 0x4
         self.unk_884 = 0x0
         self.pad_888 = 0x0
@@ -723,8 +765,7 @@ class AGXHWDataA(ConstructClass):
         self.unk_8f4 = 0
         self.pad_8f8 = 0
         self.pad_8fc = 0
-        # m1 Max goes off the rails here
-        self.unk_900 = bytes(0x294) # 94
+        self.unk_900 = bytes(0x294)
         self.unk_b94 = 600
         self.freq_with_off = 0x0
         self.unk_b9c = 0
@@ -875,7 +916,7 @@ class IOMapping(ConstructClass):
             dev, range = hv.device_addr_tbl.lookup(self.phys_addr)
             offset = self.phys_addr - range.start
             return f"\nIO Mapping: {self._MAPTYPE.get(self.readwrite, self.readwrite)} {self.virt_addr:#x} -> " \
-                f"{dev}+{offset:#x} ({self.size:#x} / {self.range_size:#x})"
+                f"{dev}+{offset:#x}({self.phys_addr:#x}) ({self.size:#x} / {self.range_size:#x})"
         else:
             return f"\nIO Mapping: {self._MAPTYPE.get(self.readwrite, self.readwrite)} {self.virt_addr:#x} -> " \
                 f"{self.phys_addr:#x} ({self.size:#x} / {self.range_size:#x})"
@@ -1542,7 +1583,7 @@ class InitData_RegionC(ConstructClass):
         "unk_8944" / Int32ul,
         "unk_8948" / Int32ul,
         "unk_894c" / Int32ul,
-        "unk_8950" / HexDump(Bytes(0x48)),
+        "unk_8950" / HexDump(Bytes(0x6c)),
         Ver("13.0 beta4", "unk_89bc_0" / HexDump(Bytes(0x3c))),
         "unk_89bc" / Int32ul,
         "unk_89c0" / Int32ul,
@@ -1663,7 +1704,7 @@ class InitData_RegionC(ConstructClass):
         self.unk_8944 = 6875 # 0
         self.unk_8948 = 0
         self.unk_894c = 0
-        self.unk_8950 = bytes(0x30)
+        self.unk_8950 = bytes(0x6c)
         self.unk_89bc_0 = bytes(0x3c)
         self.unk_89bc = 9880 # 1
         self.unk_89c0 = 8000
@@ -1699,7 +1740,7 @@ class InitData_RegionC(ConstructClass):
         self.unk_9100 = bytes(0x6f00)
         self.unk_10000 = bytes(0xe50)
         self.unk_10e50 = 0
-        self.unk_10e54 = bytes(0x28)
+        self.unk_10e54 = bytes(0x2c)
         self.unk_10e80_0 = bytes(0xed4)
         self.unk_10e80_ed0 = 0
         self.unk_10e80_ed4 = bytes(0x2c)
@@ -1767,7 +1808,10 @@ class UatLevelInfo(ConstructClass):
         self.unk_4 = 0x4000 # I doubt anything other than 16k pages is supported
         self.num_entries = num_entries
         self.unk_8 = 1
-        self.unk_10 = 0xffffffc000
+        if Ver.hw() == "t6000":
+            self.unk_10 = 0x3ffffffc000
+        else
+            self.unk_10 = 0xffffffc000
         self.index_mask = (num_entries - 1) << index_shift
 
 class InitData(ConstructClass):

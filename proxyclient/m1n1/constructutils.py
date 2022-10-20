@@ -788,6 +788,11 @@ class Ver(Subconstruct):
     except (KeyError, AttributeError):
         _version = [os.environ.get("AGX_FWVER", "0")]
 
+    try:
+        _hw = sys.modules["m1n1.constructutils"].Ver._hw
+    except (KeyError, AttributeError):
+        _hw = [os.environ.get("AGX_HW", "t8103")]
+
     def __init__(self, version, subcon):
         self.rust, self.min_ver, self.max_ver = self.parse_ver(version)
         self._name = subcon.name
@@ -873,6 +878,14 @@ class Ver(Subconstruct):
     @classmethod
     def set_version(cls, version):
         cls._version[0] = version
+
+    @classmethod
+    def hw(cls):
+        return cls._hw[0]
+
+    @classmethod
+    def set_hw(cls, hw):
+        cls._hw[0] = hw
 
 def show_struct_trace(log=print):
     for addr, desc in sorted(list(g_struct_trace)):
